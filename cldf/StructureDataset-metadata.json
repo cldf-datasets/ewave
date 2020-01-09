@@ -21,7 +21,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/ewave",
-            "dc:created": "bb8eb88"
+            "dc:created": "48653b4"
         },
         {
             "rdf:type": "prov:Entity",
@@ -360,6 +360,16 @@
                     {
                         "datatype": "string",
                         "name": "Example_Source"
+                    },
+                    {
+                        "dc:description": "Attestation is a relative measure of how widespread a feature is in the set of eWAVE varieties. It is expressed as a percentage and is calculated as the sum of all A-, B- and C-ratings for a feature, divided by the number of varieties in the eWAVE dataset. The closer the value to 100%, the more widespread the feature is.",
+                        "datatype": "float",
+                        "name": "Attestation"
+                    },
+                    {
+                        "dc:description": "Pervasiveness provides a measure of how pervasive a feature is on average in the varieties in \nwhich it is attested. Pervasiveness is calculated as all A-ratings for a feature plus 0.6 times \nthe B-ratings for the same feature plus 0.3 times the C-ratings, divided by the sum of all \nA-, B- and C-ratings for the feature. This value is then multiplied by 100 and expressed as a \npercentage. A Pervasiveness value of 100% or close to 100% thus indicates that the feature is \nhighly pervasive (rated A) in all or most of the varieties for which it is attested, while a \nvalue close to 30% (the lowest possible value) indicates that the feature is extremely rare \n(rated C) in most or all of the varieties for which it is attested. Intermediate values are less \neasy to interpret \u2013 here one has to look more closely at the ratio of A- to B- to C-values. \nTwo more things should also be noted here:\n\n- The Pervasiveness value does not provide information on how widespread a feature is in the entire \n  eWAVE dataset, i.e. for how many varieties the feature is actually attested.\n- Since the eWAVE contributors did not all use exactly the same strategies in deciding when to \n  give a feature an A- vs. a B- or a C- vs. a B- rating, it is very difficult to translate the \n  ratings into numerical values that adequately reflect the differences between A-, B- and \n  C-ratings. The choice made here (1 for A, 0.6 for B and 0.3 for C) is certainly only one of \n  many, and further testing is required to see how adequate this model is.\n",
+                        "datatype": "float",
+                        "name": "Pervasiveness"
                     }
                 ],
                 "foreignKeys": [

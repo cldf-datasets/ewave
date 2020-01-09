@@ -66,7 +66,43 @@ class Dataset(BaseDataset):
 
         # Features have a category and a typical example, with source.
         ds.add_columns(
-            'ParameterTable', 'Category_ID', 'Example_Source',
+            'ParameterTable',
+            'Category_ID',
+            'Example_Source',
+            {
+                'name': 'Attestation',
+                'datatype': 'float',
+                'dc:description':
+                    "Attestation is a relative measure of how widespread a feature is in the set "
+                    "of eWAVE varieties. It is expressed as a percentage and is calculated as the "
+                    "sum of all A-, B- and C-ratings for a feature, divided by the number of "
+                    "varieties in the eWAVE dataset. The closer the value to 100%, the more "
+                    "widespread the feature is.",
+            },
+            {
+                'name': 'Pervasiveness',
+                'datatype': 'float',
+                'dc:description': """\
+Pervasiveness provides a measure of how pervasive a feature is on average in the varieties in 
+which it is attested. Pervasiveness is calculated as all A-ratings for a feature plus 0.6 times 
+the B-ratings for the same feature plus 0.3 times the C-ratings, divided by the sum of all 
+A-, B- and C-ratings for the feature. This value is then multiplied by 100 and expressed as a 
+percentage. A Pervasiveness value of 100% or close to 100% thus indicates that the feature is 
+highly pervasive (rated A) in all or most of the varieties for which it is attested, while a 
+value close to 30% (the lowest possible value) indicates that the feature is extremely rare 
+(rated C) in most or all of the varieties for which it is attested. Intermediate values are less 
+easy to interpret – here one has to look more closely at the ratio of A- to B- to C-values. 
+Two more things should also be noted here:
+
+- The Pervasiveness value does not provide information on how widespread a feature is in the entire 
+  eWAVE dataset, i.e. for how many varieties the feature is actually attested.
+- Since the eWAVE contributors did not all use exactly the same strategies in deciding when to 
+  give a feature an A- vs. a B- or a C- vs. a B- rating, it is very difficult to translate the 
+  ratings into numerical values that adequately reflect the differences between A-, B- and 
+  C-ratings. The choice made here (1 for A, 0.6 for B and 0.3 for C) is certainly only one of 
+  many, and further testing is required to see how adequate this model is.
+""",
+            },
         )
         ds['ParameterTable'].add_foreign_key('Category_ID', 'featurecategories.csv', 'ID')
 
@@ -100,6 +136,8 @@ class Dataset(BaseDataset):
         for row in raw_ds['ParameterTable']:
             row['Example_Source'] = data[row['ID']][0]
             row['Category_ID'] = data[row['ID']][1]
+            row['Attestation'] = data[row['ID']][2]
+            row['Pervasiveness'] = data[row['ID']][3]
             args.writer.objects['ParameterTable'].append(row)
 
         # Augment examples.csv
