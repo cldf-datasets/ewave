@@ -21,7 +21,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/ewave",
-            "dc:created": "aba45eb"
+            "dc:created": "5c91e52"
         },
         {
             "rdf:type": "prov:Entity",
@@ -103,11 +103,6 @@
                         "name": "Source"
                     },
                     {
-                        "datatype": "string",
-                        "valueUrl": "http://ewave-atlas.org/languages/{contribution}",
-                        "name": "Contribution_ID"
-                    },
-                    {
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#exampleReference",
                         "separator": " ",
                         "name": "Example_ID"
@@ -142,17 +137,6 @@
                         ],
                         "reference": {
                             "resource": "languages.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
-                    {
-                        "columnReference": [
-                            "Contribution_ID"
-                        ],
-                        "reference": {
-                            "resource": "contributions.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -459,6 +443,10 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "Region_ID"
                     },
                     {
@@ -468,6 +456,10 @@
                     {
                         "datatype": "string",
                         "name": "abbr"
+                    },
+                    {
+                        "separator": " ",
+                        "name": "Contributor_ID"
                     }
                 ],
                 "foreignKeys": [
@@ -492,6 +484,17 @@
                                 "ID"
                             ]
                         }
+                    },
+                    {
+                        "columnReference": [
+                            "Contributor_ID"
+                        ],
+                        "reference": {
+                            "resource": "contributors.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
                     }
                 ],
                 "primaryKey": [
@@ -499,30 +502,6 @@
                 ]
             },
             "url": "languages.csv"
-        },
-        {
-            "dc:extent": 76,
-            "tableSchema": {
-                "columns": [
-                    {
-                        "datatype": "string",
-                        "name": "ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Name"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Description"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Contributors"
-                    }
-                ]
-            },
-            "url": "contributions.csv"
         },
         {
             "dc:extent": 8,
@@ -579,6 +558,93 @@
                 ]
             },
             "url": "featurecategories.csv"
+        },
+        {
+            "dc:extent": 85,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "string",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "URL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Address"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Email"
+                    }
+                ]
+            },
+            "url": "contributors.csv"
+        },
+        {
+            "dc:extent": 550,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "string",
+                        "name": "Version"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Parameter_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Code_ID"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Parameter_ID"
+                        ],
+                        "reference": {
+                            "resource": "parameters.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Code_ID"
+                        ],
+                        "reference": {
+                            "resource": "codes.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "url": "history.csv"
         }
     ]
 }

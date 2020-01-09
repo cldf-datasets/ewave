@@ -38,31 +38,31 @@ class Dataset(BaseDataset):
         self.raw_dir.download_and_unpack(URL)
 
     def cmd_makecldf(self, args):
-        raw_ds = StructureDataset.from_metadata(self.raw_dir / 'StructureDataset-metadata.json')
-
-        args.writer.objects['contributions.csv'] = list(raw_ds['contributions.csv'])
-        args.writer.objects['varietytypes.csv'] = [
-            {'ID': r[0], 'Name': r[1], 'Description': r[2]}
-            for r in self.raw_dir.read_csv('varietytype.psv', delimiter='|')]
-        args.writer.objects['featurecategories.csv'] = [
-            {'ID': r[0], 'Name': r[1]}
-            for r in self.raw_dir.read_csv('featurecategory.psv', delimiter='|')]
-        args.writer.objects['regions.csv'] = [
-            {'ID': r[0], 'Name': r[1]} for r in self.raw_dir.read_csv('region.psv', delimiter='|')]
-
-        # We add columns to some tables.
+        #
+        # Augment the schema of the rather simplistic CLDF download:
+        #
         ds = args.writer.cldf
-        ds.add_sources(self.raw_dir.read('sources.bib'))
+        # Add tables for controlled vocabularies:
         ds.add_table('regions.csv', 'ID', 'Name')
         ds.add_table('varietytypes.csv', 'ID', 'Name', 'Description')
         ds.add_table('featurecategories.csv', 'ID', 'Name', 'Description')
+        ds.add_table('contributors.csv', 'ID', 'Name', 'URL', 'Address', 'Email')
 
-        # Varieties have a region and a type and an abbreviation.
+        # We merge the data from contributions.csv into languages.csv for simplicity:
+        ds.tablegroup.tables = [
+            t for t in ds.tablegroup.tables if t.url.string != 'contributions.csv']
+
+        # Varieties have a region, a type, an abbreviation and contributors.
         ds.add_columns(
-            'LanguageTable', 'Region_ID', 'Type_ID', 'abbr'
-        )
+            'LanguageTable',
+            'Description',
+            'Region_ID',
+            'Type_ID',
+            'abbr',
+            {'name': 'Contributor_ID', 'separator': ' '})
         ds['LanguageTable'].add_foreign_key('Region_ID', 'regions.csv', 'ID')
         ds['LanguageTable'].add_foreign_key('Type_ID', 'varietytypes.csv', 'ID')
+        ds['LanguageTable'].add_foreign_key('Contributor_ID', 'contributors.csv', 'ID')
 
         # Features have a category and a typical example, with source.
         ds.add_columns(
@@ -115,6 +115,13 @@ Two more things should also be noted here:
                 'separator': ' ',
             }
         )
+        # ... but no Contribution_ID anymore:
+        ds['ValueTable'].tableSchema.columns = [
+            c for c in ds['ValueTable'].tableSchema.columns if c.name != 'Contribution_ID']
+        ds['ValueTable'].tableSchema.foreignKeys = [
+            c for c in ds['ValueTable'].tableSchema.foreignKeys
+            if 'Contribution_ID' not in c.columnReference]
+
         # Examples may have sources:
         ds.add_columns(
             'ExampleTable',
@@ -125,11 +132,64 @@ Two more things should also be noted here:
             }
         )
 
+        history = ds.add_table('history.csv', 'Version', 'Language_ID', 'Parameter_ID', 'Code_ID')
+        history.add_foreign_key('Language_ID', 'languages.csv', 'ID')
+        history.add_foreign_key('Parameter_ID', 'parameters.csv', 'ID')
+        history.add_foreign_key('Code_ID', 'codes.csv', 'ID')
+
+        #
+        # Now add the data:
+        #
+        ds.add_sources(self.raw_dir.read('sources.bib'))
+
+        args.writer.objects['varietytypes.csv'] = [
+            {'ID': r[0], 'Name': r[1], 'Description': r[2]}
+            for r in self.raw_dir.read_csv('varietytype.psv', delimiter='|')]
+        args.writer.objects['featurecategories.csv'] = [
+            {'ID': r[0], 'Name': r[1]}
+            for r in self.raw_dir.read_csv('featurecategory.psv', delimiter='|')]
+        args.writer.objects['regions.csv'] = [
+            {'ID': r[0], 'Name': r[1]} for r in self.raw_dir.read_csv('region.psv', delimiter='|')]
+
+        for lid, pid, cid, _ in self.raw_dir.read_json('changes.json')['2013']:
+            args.writer.objects['history.csv'].append({
+                'Version': '1.0',
+                'Language_ID': lid,
+                'Parameter_ID': pid,
+                'Code_ID': '{0}-{1}'.format(pid, cid.replace('?', 'NA'))
+            })
+
+        for row in self.raw_dir.read_csv('contributors.csv', dicts=True):
+            #id, name, url, email, address
+            args.writer.objects['contributors.csv'].append({
+                'ID': row['id'],
+                'Name': row['name'],
+                'URL': row['url'],
+                'Email': row['email'],
+                'Address': row['address'],
+            })
+
+        # We read the bulk of the data from the CLDF export of the website:
+        raw_ds = StructureDataset.from_metadata(self.raw_dir / 'StructureDataset-metadata.json')
+
+        cc = {
+            cid: [r[1] for r in rows] for cid, rows in itertools.groupby(
+                sorted(
+                    self.raw_dir.read_csv('cc.csv'),
+                    key=lambda r: (int(r[0]), int(r[2]), int(r[1]))),
+                lambda r: r[0],
+            )
+        }
+        desc = {
+            r['ID']: r['Description']
+            for r in self.raw_dir.read_csv('contributions.csv', dicts=True)}
         data = {r[0]: r[1:] for r in self.raw_dir.read_csv('variety.csv')}
         for row in raw_ds['LanguageTable']:
             row['Region_ID'] = data[row['ID']][0]
             row['Type_ID'] = data[row['ID']][1]
             row['abbr'] = data[row['ID']][2]
+            row['Description'] = desc[row['ID']]
+            row['Contributor_ID'] = cc[row['ID']]
             args.writer.objects['LanguageTable'].append(row)
 
         data = {r[0]: r[1:] for r in self.raw_dir.read_csv('feature.csv')}
