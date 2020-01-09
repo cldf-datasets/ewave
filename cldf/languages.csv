@@ -1,0 +1,77 @@
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Region_ID,Type_ID,abbr
+1,Orkney and Shetland English,,59.5,-2.1,,,BI,L1t,O&SE
+2,Scottish English,,56.9,-1.7,,,BI,L1t,ScE
+3,Irish English,,52.8,-7.8,,,BI,L1c,IrE
+4,Manx English,,54.16,-4.57,,,BI,L1c,ManxE
+5,Welsh English,,52.3,-3.5,,,BI,L1c,WelE
+6,English dialects in the North of England,,53.7,-1.7,,,BI,L1t,North
+7,English dialects in the Southwest of England,,50.8,-4.0,,,BI,L1t,SW
+8,East Anglian English,,52.3,0.7,,,BI,L1t,EA
+9,English dialects in the Southeast of England,,51.1,0.6,,,BI,L1t,SE
+10,Channel Islands English,,49.38,-2.46,,,BI,L1c,ChIsE
+11,British Creole,,51.46,-0.11,,,BI,Cr,BrC
+12,Maltese English,,36.03,14.41,,,BI,L1c,MaltE
+13,Newfoundland English,,48.8,-57.0,,,Am,L1t,NfldE
+14,Colloquial American English,,39.1,-101.8,,,Am,L1c,CollAmE
+15,Urban African American Vernacular English,,39.5,-102.0,,,Am,L1c,UAAVE
+16,Rural African American Vernacular English,,37.5,-77.43,,,Am,L1c,RAAVE
+17,Earlier African American Vernacular English,,34.85,-82.4,,,Am,L1c,EAAVE
+18,Ozark English,,37.0,-91.71,,,Am,L1t,OzE
+19,Appalachian English,,39.5,-79.5,,,Am,L1t,AppE
+20,Southeast American enclave dialects,,34.2,-80.9,,,Am,L1t,SEAmE
+21,Gullah,,36.0,-77.5,,,Am,Cr,Gullah
+22,Chicano English,,35.48,-118.74,,,Am,L2,ChcE
+23,Bahamian English,,24.3,-78.0,,,Ca,L1c,BahE
+24,Bahamian Creole,,25.16,-77.34,,,Ca,Cr,BahC
+25,Barbadian Creole (Bajan),,13.23,-59.76,,,Ca,Cr,Bajan
+26,Jamaican English,,17.97,-76.64,,,Ca,L2,JamE
+27,Jamaican Creole,,18.1,-77.4,,,Ca,Cr,JamC
+28,San Andrés Creole,,12.53,-81.71,,,Ca,Cr,SanAC
+29,Belizean Creole,,17.5,-88.19,,,Ca,Cr,BelC
+30,Guyanese Creole (Creolese),,6.66,-58.0,,,Ca,Cr,GuyC
+31,Eastern Maroon Creole,,4.25,-54.38,,,Ca,Cr,EMarC
+32,Saramaccan,,4.59,-55.46,,,Ca,Cr,Saramaccan
+33,Sranan,,5.81,-55.16,,,Ca,Cr,Sranan
+34,Trinidadian Creole,,10.65,-61.47,,,Ca,Cr,TrinC
+35,Vincentian Creole,,13.15,-61.22,,,Ca,Cr,VinC
+36,Krio (Sierra Leone Creole),,8.4,-13.35,,,Af,Cr,Krio
+37,Liberian Settler English,,5.36,-8.54,,,Af,L1c,LibSE
+38,Vernacular Liberian English,,6.3,-10.79,,,Af,P,VLibE
+39,Ghanaian English,,7.36,-1.42,,,Af,L2,GhE
+40,Ghanaian Pidgin,,5.73,-0.3,,,Af,P,GhP
+41,Nigerian English,,9.1,7.38,,,Af,L2,NigE
+42,Nigerian Pidgin,,6.34,6.8,,,Af,P,NigP
+43,Cameroon English,,4.8,13.2,,,Af,L2,CamE
+44,Cameroon Pidgin,,4.33,9.8,,,Af,P,CamP
+45,Tanzanian English,,-6.17,35.73,,,Af,L2,TznE
+46,Kenyan English,,-1.4,36.91,,,Af,L2,KenE
+47,Ugandan English,,0.35,32.6,,,Af,L2,UgE
+48,White Zimbabwean English,,-17.81,31.2,,,Af,L1c,WhZimE
+49,Black South African English,,-25.8,28.55,,,Af,L2,BlSAfE
+50,Indian South African English,,-32.47,19.76,,,Af,L2,InSAfE
+51,White South African English,,-32.47,25.39,,,Af,L1c,WhSAfE
+52,Indian English,,28.61,77.34,,,As,L2,IndE
+53,Pakistani English,,28.8,68.7,,,As,L2,PakE
+54,Butler English,,19.8,78.6,,,As,P,ButlE
+55,Sri Lankan English,,6.92,79.84,,,As,L2,SLkE
+56,Hong Kong English,,22.26,114.25,,,As,L2,HKE
+57,Colloquial Singapore English (Singlish),,1.4,103.71,,,As,L1c,CollSgE
+58,Malaysian English,,4.1,102.2,,,As,L2,MalE
+59,Australian English,,-35.17,149.06,,,Au,L1c,AusE
+60,Australian Vernacular English,,-42.88,147.33,,,Au,L1c,AusVE
+61,Aboriginal English,,-25.2,120.0,,,Au,L1c,AborE
+62,Roper River Creole (Kriol),,-14.6,132.18,,,Au,Cr,RRC
+63,Torres Strait Creole,,-10.05,143.06,,,Au,Cr,TorSC
+64,New Zealand English,,-42.2,172.1,,,Pa,L1c,NZE
+65,Norfolk Island/ Pitcairn English,,-29.02,167.95,,,Pa,P,Norf'k
+66,Palmerston English,,-18.06,-163.15,,,Pa,Cr,PalmE
+67,Acrolectal Fiji English,,-17.58,177.55,,,Pa,L2,FijiE
+68,Pure Fiji English (basilectal FijiE),,-17.92,178.47,,,Pa,L2,CollFijiE
+69,Bislama,,-15.52,167.16,,,Pa,Cr,Bislama
+70,Tok Pisin,,-9.48,147.19,,,Pa,P,TP
+71,Hawaiʼi Creole,,21.0,-157.1,,,Pa,Cr,HawC
+72,Falkland Islands English,,-51.42,-57.51,,,SA,L1c,FlkE
+73,St. Helena English,,-15.96,-5.71,,,SA,L1c,StHE
+74,Tristan da Cunha English,,-37.11,-12.27,,,SA,L1c,TdCE
+75,Philippine English,,14.651354,121.049709,,,As,L1c,PhilE
+76,Cape Flats English,,-33.96,18.65,,,Af,L2,CFE

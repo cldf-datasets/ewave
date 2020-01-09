@@ -1,0 +1,1411 @@
+ID,Parameter_ID,Name,Description,Number
+1-A,1,A,feature is pervasive or obligatory,1
+1-B,1,B,feature is neither pervasive nor extremely rare,2
+1-C,1,C,"feature exists, but is extremely rare",3
+1-D,1,D,attested absence of feature,4
+1-X,1,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+1-NA,1,?,no information on feature is available,6
+2-A,2,A,feature is pervasive or obligatory,1
+2-B,2,B,feature is neither pervasive nor extremely rare,2
+2-C,2,C,"feature exists, but is extremely rare",3
+2-D,2,D,attested absence of feature,4
+2-X,2,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+2-NA,2,?,no information on feature is available,6
+3-A,3,A,feature is pervasive or obligatory,1
+3-B,3,B,feature is neither pervasive nor extremely rare,2
+3-C,3,C,"feature exists, but is extremely rare",3
+3-D,3,D,attested absence of feature,4
+3-X,3,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+3-NA,3,?,no information on feature is available,6
+4-A,4,A,feature is pervasive or obligatory,1
+4-B,4,B,feature is neither pervasive nor extremely rare,2
+4-C,4,C,"feature exists, but is extremely rare",3
+4-D,4,D,attested absence of feature,4
+4-X,4,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+4-NA,4,?,no information on feature is available,6
+5-A,5,A,feature is pervasive or obligatory,1
+5-B,5,B,feature is neither pervasive nor extremely rare,2
+5-C,5,C,"feature exists, but is extremely rare",3
+5-D,5,D,attested absence of feature,4
+5-X,5,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+5-NA,5,?,no information on feature is available,6
+6-A,6,A,feature is pervasive or obligatory,1
+6-B,6,B,feature is neither pervasive nor extremely rare,2
+6-C,6,C,"feature exists, but is extremely rare",3
+6-D,6,D,attested absence of feature,4
+6-X,6,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+6-NA,6,?,no information on feature is available,6
+7-A,7,A,feature is pervasive or obligatory,1
+7-B,7,B,feature is neither pervasive nor extremely rare,2
+7-C,7,C,"feature exists, but is extremely rare",3
+7-D,7,D,attested absence of feature,4
+7-X,7,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+7-NA,7,?,no information on feature is available,6
+8-A,8,A,feature is pervasive or obligatory,1
+8-B,8,B,feature is neither pervasive nor extremely rare,2
+8-C,8,C,"feature exists, but is extremely rare",3
+8-D,8,D,attested absence of feature,4
+8-X,8,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+8-NA,8,?,no information on feature is available,6
+9-A,9,A,feature is pervasive or obligatory,1
+9-B,9,B,feature is neither pervasive nor extremely rare,2
+9-C,9,C,"feature exists, but is extremely rare",3
+9-D,9,D,attested absence of feature,4
+9-X,9,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+9-NA,9,?,no information on feature is available,6
+10-A,10,A,feature is pervasive or obligatory,1
+10-B,10,B,feature is neither pervasive nor extremely rare,2
+10-C,10,C,"feature exists, but is extremely rare",3
+10-D,10,D,attested absence of feature,4
+10-X,10,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+10-NA,10,?,no information on feature is available,6
+11-A,11,A,feature is pervasive or obligatory,1
+11-B,11,B,feature is neither pervasive nor extremely rare,2
+11-C,11,C,"feature exists, but is extremely rare",3
+11-D,11,D,attested absence of feature,4
+11-X,11,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+11-NA,11,?,no information on feature is available,6
+12-A,12,A,feature is pervasive or obligatory,1
+12-B,12,B,feature is neither pervasive nor extremely rare,2
+12-C,12,C,"feature exists, but is extremely rare",3
+12-D,12,D,attested absence of feature,4
+12-X,12,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+12-NA,12,?,no information on feature is available,6
+13-A,13,A,feature is pervasive or obligatory,1
+13-B,13,B,feature is neither pervasive nor extremely rare,2
+13-C,13,C,"feature exists, but is extremely rare",3
+13-D,13,D,attested absence of feature,4
+13-X,13,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+13-NA,13,?,no information on feature is available,6
+14-A,14,A,feature is pervasive or obligatory,1
+14-B,14,B,feature is neither pervasive nor extremely rare,2
+14-C,14,C,"feature exists, but is extremely rare",3
+14-D,14,D,attested absence of feature,4
+14-X,14,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+14-NA,14,?,no information on feature is available,6
+15-A,15,A,feature is pervasive or obligatory,1
+15-B,15,B,feature is neither pervasive nor extremely rare,2
+15-C,15,C,"feature exists, but is extremely rare",3
+15-D,15,D,attested absence of feature,4
+15-X,15,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+15-NA,15,?,no information on feature is available,6
+16-A,16,A,feature is pervasive or obligatory,1
+16-B,16,B,feature is neither pervasive nor extremely rare,2
+16-C,16,C,"feature exists, but is extremely rare",3
+16-D,16,D,attested absence of feature,4
+16-X,16,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+16-NA,16,?,no information on feature is available,6
+17-A,17,A,feature is pervasive or obligatory,1
+17-B,17,B,feature is neither pervasive nor extremely rare,2
+17-C,17,C,"feature exists, but is extremely rare",3
+17-D,17,D,attested absence of feature,4
+17-X,17,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+17-NA,17,?,no information on feature is available,6
+18-A,18,A,feature is pervasive or obligatory,1
+18-B,18,B,feature is neither pervasive nor extremely rare,2
+18-C,18,C,"feature exists, but is extremely rare",3
+18-D,18,D,attested absence of feature,4
+18-X,18,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+18-NA,18,?,no information on feature is available,6
+19-A,19,A,feature is pervasive or obligatory,1
+19-B,19,B,feature is neither pervasive nor extremely rare,2
+19-C,19,C,"feature exists, but is extremely rare",3
+19-D,19,D,attested absence of feature,4
+19-X,19,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+19-NA,19,?,no information on feature is available,6
+20-A,20,A,feature is pervasive or obligatory,1
+20-B,20,B,feature is neither pervasive nor extremely rare,2
+20-C,20,C,"feature exists, but is extremely rare",3
+20-D,20,D,attested absence of feature,4
+20-X,20,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+20-NA,20,?,no information on feature is available,6
+21-A,21,A,feature is pervasive or obligatory,1
+21-B,21,B,feature is neither pervasive nor extremely rare,2
+21-C,21,C,"feature exists, but is extremely rare",3
+21-D,21,D,attested absence of feature,4
+21-X,21,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+21-NA,21,?,no information on feature is available,6
+22-A,22,A,feature is pervasive or obligatory,1
+22-B,22,B,feature is neither pervasive nor extremely rare,2
+22-C,22,C,"feature exists, but is extremely rare",3
+22-D,22,D,attested absence of feature,4
+22-X,22,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+22-NA,22,?,no information on feature is available,6
+23-A,23,A,feature is pervasive or obligatory,1
+23-B,23,B,feature is neither pervasive nor extremely rare,2
+23-C,23,C,"feature exists, but is extremely rare",3
+23-D,23,D,attested absence of feature,4
+23-X,23,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+23-NA,23,?,no information on feature is available,6
+24-A,24,A,feature is pervasive or obligatory,1
+24-B,24,B,feature is neither pervasive nor extremely rare,2
+24-C,24,C,"feature exists, but is extremely rare",3
+24-D,24,D,attested absence of feature,4
+24-X,24,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+24-NA,24,?,no information on feature is available,6
+25-A,25,A,feature is pervasive or obligatory,1
+25-B,25,B,feature is neither pervasive nor extremely rare,2
+25-C,25,C,"feature exists, but is extremely rare",3
+25-D,25,D,attested absence of feature,4
+25-X,25,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+25-NA,25,?,no information on feature is available,6
+26-A,26,A,feature is pervasive or obligatory,1
+26-B,26,B,feature is neither pervasive nor extremely rare,2
+26-C,26,C,"feature exists, but is extremely rare",3
+26-D,26,D,attested absence of feature,4
+26-X,26,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+26-NA,26,?,no information on feature is available,6
+27-A,27,A,feature is pervasive or obligatory,1
+27-B,27,B,feature is neither pervasive nor extremely rare,2
+27-C,27,C,"feature exists, but is extremely rare",3
+27-D,27,D,attested absence of feature,4
+27-X,27,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+27-NA,27,?,no information on feature is available,6
+28-A,28,A,feature is pervasive or obligatory,1
+28-B,28,B,feature is neither pervasive nor extremely rare,2
+28-C,28,C,"feature exists, but is extremely rare",3
+28-D,28,D,attested absence of feature,4
+28-X,28,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+28-NA,28,?,no information on feature is available,6
+29-A,29,A,feature is pervasive or obligatory,1
+29-B,29,B,feature is neither pervasive nor extremely rare,2
+29-C,29,C,"feature exists, but is extremely rare",3
+29-D,29,D,attested absence of feature,4
+29-X,29,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+29-NA,29,?,no information on feature is available,6
+30-A,30,A,feature is pervasive or obligatory,1
+30-B,30,B,feature is neither pervasive nor extremely rare,2
+30-C,30,C,"feature exists, but is extremely rare",3
+30-D,30,D,attested absence of feature,4
+30-X,30,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+30-NA,30,?,no information on feature is available,6
+31-A,31,A,feature is pervasive or obligatory,1
+31-B,31,B,feature is neither pervasive nor extremely rare,2
+31-C,31,C,"feature exists, but is extremely rare",3
+31-D,31,D,attested absence of feature,4
+31-X,31,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+31-NA,31,?,no information on feature is available,6
+32-A,32,A,feature is pervasive or obligatory,1
+32-B,32,B,feature is neither pervasive nor extremely rare,2
+32-C,32,C,"feature exists, but is extremely rare",3
+32-D,32,D,attested absence of feature,4
+32-X,32,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+32-NA,32,?,no information on feature is available,6
+33-A,33,A,feature is pervasive or obligatory,1
+33-B,33,B,feature is neither pervasive nor extremely rare,2
+33-C,33,C,"feature exists, but is extremely rare",3
+33-D,33,D,attested absence of feature,4
+33-X,33,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+33-NA,33,?,no information on feature is available,6
+34-A,34,A,feature is pervasive or obligatory,1
+34-B,34,B,feature is neither pervasive nor extremely rare,2
+34-C,34,C,"feature exists, but is extremely rare",3
+34-D,34,D,attested absence of feature,4
+34-X,34,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+34-NA,34,?,no information on feature is available,6
+35-A,35,A,feature is pervasive or obligatory,1
+35-B,35,B,feature is neither pervasive nor extremely rare,2
+35-C,35,C,"feature exists, but is extremely rare",3
+35-D,35,D,attested absence of feature,4
+35-X,35,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+35-NA,35,?,no information on feature is available,6
+36-A,36,A,feature is pervasive or obligatory,1
+36-B,36,B,feature is neither pervasive nor extremely rare,2
+36-C,36,C,"feature exists, but is extremely rare",3
+36-D,36,D,attested absence of feature,4
+36-X,36,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+36-NA,36,?,no information on feature is available,6
+37-A,37,A,feature is pervasive or obligatory,1
+37-B,37,B,feature is neither pervasive nor extremely rare,2
+37-C,37,C,"feature exists, but is extremely rare",3
+37-D,37,D,attested absence of feature,4
+37-X,37,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+37-NA,37,?,no information on feature is available,6
+38-A,38,A,feature is pervasive or obligatory,1
+38-B,38,B,feature is neither pervasive nor extremely rare,2
+38-C,38,C,"feature exists, but is extremely rare",3
+38-D,38,D,attested absence of feature,4
+38-X,38,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+38-NA,38,?,no information on feature is available,6
+39-A,39,A,feature is pervasive or obligatory,1
+39-B,39,B,feature is neither pervasive nor extremely rare,2
+39-C,39,C,"feature exists, but is extremely rare",3
+39-D,39,D,attested absence of feature,4
+39-X,39,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+39-NA,39,?,no information on feature is available,6
+40-A,40,A,feature is pervasive or obligatory,1
+40-B,40,B,feature is neither pervasive nor extremely rare,2
+40-C,40,C,"feature exists, but is extremely rare",3
+40-D,40,D,attested absence of feature,4
+40-X,40,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+40-NA,40,?,no information on feature is available,6
+41-A,41,A,feature is pervasive or obligatory,1
+41-B,41,B,feature is neither pervasive nor extremely rare,2
+41-C,41,C,"feature exists, but is extremely rare",3
+41-D,41,D,attested absence of feature,4
+41-X,41,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+41-NA,41,?,no information on feature is available,6
+42-A,42,A,feature is pervasive or obligatory,1
+42-B,42,B,feature is neither pervasive nor extremely rare,2
+42-C,42,C,"feature exists, but is extremely rare",3
+42-D,42,D,attested absence of feature,4
+42-X,42,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+42-NA,42,?,no information on feature is available,6
+43-A,43,A,feature is pervasive or obligatory,1
+43-B,43,B,feature is neither pervasive nor extremely rare,2
+43-C,43,C,"feature exists, but is extremely rare",3
+43-D,43,D,attested absence of feature,4
+43-X,43,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+43-NA,43,?,no information on feature is available,6
+44-A,44,A,feature is pervasive or obligatory,1
+44-B,44,B,feature is neither pervasive nor extremely rare,2
+44-C,44,C,"feature exists, but is extremely rare",3
+44-D,44,D,attested absence of feature,4
+44-X,44,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+44-NA,44,?,no information on feature is available,6
+45-A,45,A,feature is pervasive or obligatory,1
+45-B,45,B,feature is neither pervasive nor extremely rare,2
+45-C,45,C,"feature exists, but is extremely rare",3
+45-D,45,D,attested absence of feature,4
+45-X,45,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+45-NA,45,?,no information on feature is available,6
+46-A,46,A,feature is pervasive or obligatory,1
+46-B,46,B,feature is neither pervasive nor extremely rare,2
+46-C,46,C,"feature exists, but is extremely rare",3
+46-D,46,D,attested absence of feature,4
+46-X,46,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+46-NA,46,?,no information on feature is available,6
+47-A,47,A,feature is pervasive or obligatory,1
+47-B,47,B,feature is neither pervasive nor extremely rare,2
+47-C,47,C,"feature exists, but is extremely rare",3
+47-D,47,D,attested absence of feature,4
+47-X,47,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+47-NA,47,?,no information on feature is available,6
+48-A,48,A,feature is pervasive or obligatory,1
+48-B,48,B,feature is neither pervasive nor extremely rare,2
+48-C,48,C,"feature exists, but is extremely rare",3
+48-D,48,D,attested absence of feature,4
+48-X,48,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+48-NA,48,?,no information on feature is available,6
+49-A,49,A,feature is pervasive or obligatory,1
+49-B,49,B,feature is neither pervasive nor extremely rare,2
+49-C,49,C,"feature exists, but is extremely rare",3
+49-D,49,D,attested absence of feature,4
+49-X,49,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+49-NA,49,?,no information on feature is available,6
+50-A,50,A,feature is pervasive or obligatory,1
+50-B,50,B,feature is neither pervasive nor extremely rare,2
+50-C,50,C,"feature exists, but is extremely rare",3
+50-D,50,D,attested absence of feature,4
+50-X,50,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+50-NA,50,?,no information on feature is available,6
+51-A,51,A,feature is pervasive or obligatory,1
+51-B,51,B,feature is neither pervasive nor extremely rare,2
+51-C,51,C,"feature exists, but is extremely rare",3
+51-D,51,D,attested absence of feature,4
+51-X,51,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+51-NA,51,?,no information on feature is available,6
+52-A,52,A,feature is pervasive or obligatory,1
+52-B,52,B,feature is neither pervasive nor extremely rare,2
+52-C,52,C,"feature exists, but is extremely rare",3
+52-D,52,D,attested absence of feature,4
+52-X,52,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+52-NA,52,?,no information on feature is available,6
+53-A,53,A,feature is pervasive or obligatory,1
+53-B,53,B,feature is neither pervasive nor extremely rare,2
+53-C,53,C,"feature exists, but is extremely rare",3
+53-D,53,D,attested absence of feature,4
+53-X,53,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+53-NA,53,?,no information on feature is available,6
+54-A,54,A,feature is pervasive or obligatory,1
+54-B,54,B,feature is neither pervasive nor extremely rare,2
+54-C,54,C,"feature exists, but is extremely rare",3
+54-D,54,D,attested absence of feature,4
+54-X,54,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+54-NA,54,?,no information on feature is available,6
+55-A,55,A,feature is pervasive or obligatory,1
+55-B,55,B,feature is neither pervasive nor extremely rare,2
+55-C,55,C,"feature exists, but is extremely rare",3
+55-D,55,D,attested absence of feature,4
+55-X,55,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+55-NA,55,?,no information on feature is available,6
+56-A,56,A,feature is pervasive or obligatory,1
+56-B,56,B,feature is neither pervasive nor extremely rare,2
+56-C,56,C,"feature exists, but is extremely rare",3
+56-D,56,D,attested absence of feature,4
+56-X,56,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+56-NA,56,?,no information on feature is available,6
+57-A,57,A,feature is pervasive or obligatory,1
+57-B,57,B,feature is neither pervasive nor extremely rare,2
+57-C,57,C,"feature exists, but is extremely rare",3
+57-D,57,D,attested absence of feature,4
+57-X,57,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+57-NA,57,?,no information on feature is available,6
+58-A,58,A,feature is pervasive or obligatory,1
+58-B,58,B,feature is neither pervasive nor extremely rare,2
+58-C,58,C,"feature exists, but is extremely rare",3
+58-D,58,D,attested absence of feature,4
+58-X,58,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+58-NA,58,?,no information on feature is available,6
+59-A,59,A,feature is pervasive or obligatory,1
+59-B,59,B,feature is neither pervasive nor extremely rare,2
+59-C,59,C,"feature exists, but is extremely rare",3
+59-D,59,D,attested absence of feature,4
+59-X,59,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+59-NA,59,?,no information on feature is available,6
+60-A,60,A,feature is pervasive or obligatory,1
+60-B,60,B,feature is neither pervasive nor extremely rare,2
+60-C,60,C,"feature exists, but is extremely rare",3
+60-D,60,D,attested absence of feature,4
+60-X,60,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+60-NA,60,?,no information on feature is available,6
+61-A,61,A,feature is pervasive or obligatory,1
+61-B,61,B,feature is neither pervasive nor extremely rare,2
+61-C,61,C,"feature exists, but is extremely rare",3
+61-D,61,D,attested absence of feature,4
+61-X,61,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+61-NA,61,?,no information on feature is available,6
+62-A,62,A,feature is pervasive or obligatory,1
+62-B,62,B,feature is neither pervasive nor extremely rare,2
+62-C,62,C,"feature exists, but is extremely rare",3
+62-D,62,D,attested absence of feature,4
+62-X,62,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+62-NA,62,?,no information on feature is available,6
+63-A,63,A,feature is pervasive or obligatory,1
+63-B,63,B,feature is neither pervasive nor extremely rare,2
+63-C,63,C,"feature exists, but is extremely rare",3
+63-D,63,D,attested absence of feature,4
+63-X,63,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+63-NA,63,?,no information on feature is available,6
+64-A,64,A,feature is pervasive or obligatory,1
+64-B,64,B,feature is neither pervasive nor extremely rare,2
+64-C,64,C,"feature exists, but is extremely rare",3
+64-D,64,D,attested absence of feature,4
+64-X,64,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+64-NA,64,?,no information on feature is available,6
+65-A,65,A,feature is pervasive or obligatory,1
+65-B,65,B,feature is neither pervasive nor extremely rare,2
+65-C,65,C,"feature exists, but is extremely rare",3
+65-D,65,D,attested absence of feature,4
+65-X,65,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+65-NA,65,?,no information on feature is available,6
+66-A,66,A,feature is pervasive or obligatory,1
+66-B,66,B,feature is neither pervasive nor extremely rare,2
+66-C,66,C,"feature exists, but is extremely rare",3
+66-D,66,D,attested absence of feature,4
+66-X,66,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+66-NA,66,?,no information on feature is available,6
+67-A,67,A,feature is pervasive or obligatory,1
+67-B,67,B,feature is neither pervasive nor extremely rare,2
+67-C,67,C,"feature exists, but is extremely rare",3
+67-D,67,D,attested absence of feature,4
+67-X,67,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+67-NA,67,?,no information on feature is available,6
+68-A,68,A,feature is pervasive or obligatory,1
+68-B,68,B,feature is neither pervasive nor extremely rare,2
+68-C,68,C,"feature exists, but is extremely rare",3
+68-D,68,D,attested absence of feature,4
+68-X,68,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+68-NA,68,?,no information on feature is available,6
+69-A,69,A,feature is pervasive or obligatory,1
+69-B,69,B,feature is neither pervasive nor extremely rare,2
+69-C,69,C,"feature exists, but is extremely rare",3
+69-D,69,D,attested absence of feature,4
+69-X,69,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+69-NA,69,?,no information on feature is available,6
+70-A,70,A,feature is pervasive or obligatory,1
+70-B,70,B,feature is neither pervasive nor extremely rare,2
+70-C,70,C,"feature exists, but is extremely rare",3
+70-D,70,D,attested absence of feature,4
+70-X,70,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+70-NA,70,?,no information on feature is available,6
+71-A,71,A,feature is pervasive or obligatory,1
+71-B,71,B,feature is neither pervasive nor extremely rare,2
+71-C,71,C,"feature exists, but is extremely rare",3
+71-D,71,D,attested absence of feature,4
+71-X,71,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+71-NA,71,?,no information on feature is available,6
+72-A,72,A,feature is pervasive or obligatory,1
+72-B,72,B,feature is neither pervasive nor extremely rare,2
+72-C,72,C,"feature exists, but is extremely rare",3
+72-D,72,D,attested absence of feature,4
+72-X,72,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+72-NA,72,?,no information on feature is available,6
+73-A,73,A,feature is pervasive or obligatory,1
+73-B,73,B,feature is neither pervasive nor extremely rare,2
+73-C,73,C,"feature exists, but is extremely rare",3
+73-D,73,D,attested absence of feature,4
+73-X,73,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+73-NA,73,?,no information on feature is available,6
+74-A,74,A,feature is pervasive or obligatory,1
+74-B,74,B,feature is neither pervasive nor extremely rare,2
+74-C,74,C,"feature exists, but is extremely rare",3
+74-D,74,D,attested absence of feature,4
+74-X,74,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+74-NA,74,?,no information on feature is available,6
+75-A,75,A,feature is pervasive or obligatory,1
+75-B,75,B,feature is neither pervasive nor extremely rare,2
+75-C,75,C,"feature exists, but is extremely rare",3
+75-D,75,D,attested absence of feature,4
+75-X,75,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+75-NA,75,?,no information on feature is available,6
+76-A,76,A,feature is pervasive or obligatory,1
+76-B,76,B,feature is neither pervasive nor extremely rare,2
+76-C,76,C,"feature exists, but is extremely rare",3
+76-D,76,D,attested absence of feature,4
+76-X,76,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+76-NA,76,?,no information on feature is available,6
+77-A,77,A,feature is pervasive or obligatory,1
+77-B,77,B,feature is neither pervasive nor extremely rare,2
+77-C,77,C,"feature exists, but is extremely rare",3
+77-D,77,D,attested absence of feature,4
+77-X,77,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+77-NA,77,?,no information on feature is available,6
+78-A,78,A,feature is pervasive or obligatory,1
+78-B,78,B,feature is neither pervasive nor extremely rare,2
+78-C,78,C,"feature exists, but is extremely rare",3
+78-D,78,D,attested absence of feature,4
+78-X,78,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+78-NA,78,?,no information on feature is available,6
+79-A,79,A,feature is pervasive or obligatory,1
+79-B,79,B,feature is neither pervasive nor extremely rare,2
+79-C,79,C,"feature exists, but is extremely rare",3
+79-D,79,D,attested absence of feature,4
+79-X,79,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+79-NA,79,?,no information on feature is available,6
+80-A,80,A,feature is pervasive or obligatory,1
+80-B,80,B,feature is neither pervasive nor extremely rare,2
+80-C,80,C,"feature exists, but is extremely rare",3
+80-D,80,D,attested absence of feature,4
+80-X,80,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+80-NA,80,?,no information on feature is available,6
+81-A,81,A,feature is pervasive or obligatory,1
+81-B,81,B,feature is neither pervasive nor extremely rare,2
+81-C,81,C,"feature exists, but is extremely rare",3
+81-D,81,D,attested absence of feature,4
+81-X,81,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+81-NA,81,?,no information on feature is available,6
+82-A,82,A,feature is pervasive or obligatory,1
+82-B,82,B,feature is neither pervasive nor extremely rare,2
+82-C,82,C,"feature exists, but is extremely rare",3
+82-D,82,D,attested absence of feature,4
+82-X,82,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+82-NA,82,?,no information on feature is available,6
+83-A,83,A,feature is pervasive or obligatory,1
+83-B,83,B,feature is neither pervasive nor extremely rare,2
+83-C,83,C,"feature exists, but is extremely rare",3
+83-D,83,D,attested absence of feature,4
+83-X,83,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+83-NA,83,?,no information on feature is available,6
+84-A,84,A,feature is pervasive or obligatory,1
+84-B,84,B,feature is neither pervasive nor extremely rare,2
+84-C,84,C,"feature exists, but is extremely rare",3
+84-D,84,D,attested absence of feature,4
+84-X,84,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+84-NA,84,?,no information on feature is available,6
+85-A,85,A,feature is pervasive or obligatory,1
+85-B,85,B,feature is neither pervasive nor extremely rare,2
+85-C,85,C,"feature exists, but is extremely rare",3
+85-D,85,D,attested absence of feature,4
+85-X,85,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+85-NA,85,?,no information on feature is available,6
+86-A,86,A,feature is pervasive or obligatory,1
+86-B,86,B,feature is neither pervasive nor extremely rare,2
+86-C,86,C,"feature exists, but is extremely rare",3
+86-D,86,D,attested absence of feature,4
+86-X,86,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+86-NA,86,?,no information on feature is available,6
+87-A,87,A,feature is pervasive or obligatory,1
+87-B,87,B,feature is neither pervasive nor extremely rare,2
+87-C,87,C,"feature exists, but is extremely rare",3
+87-D,87,D,attested absence of feature,4
+87-X,87,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+87-NA,87,?,no information on feature is available,6
+88-A,88,A,feature is pervasive or obligatory,1
+88-B,88,B,feature is neither pervasive nor extremely rare,2
+88-C,88,C,"feature exists, but is extremely rare",3
+88-D,88,D,attested absence of feature,4
+88-X,88,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+88-NA,88,?,no information on feature is available,6
+89-A,89,A,feature is pervasive or obligatory,1
+89-B,89,B,feature is neither pervasive nor extremely rare,2
+89-C,89,C,"feature exists, but is extremely rare",3
+89-D,89,D,attested absence of feature,4
+89-X,89,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+89-NA,89,?,no information on feature is available,6
+90-A,90,A,feature is pervasive or obligatory,1
+90-B,90,B,feature is neither pervasive nor extremely rare,2
+90-C,90,C,"feature exists, but is extremely rare",3
+90-D,90,D,attested absence of feature,4
+90-X,90,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+90-NA,90,?,no information on feature is available,6
+91-A,91,A,feature is pervasive or obligatory,1
+91-B,91,B,feature is neither pervasive nor extremely rare,2
+91-C,91,C,"feature exists, but is extremely rare",3
+91-D,91,D,attested absence of feature,4
+91-X,91,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+91-NA,91,?,no information on feature is available,6
+92-A,92,A,feature is pervasive or obligatory,1
+92-B,92,B,feature is neither pervasive nor extremely rare,2
+92-C,92,C,"feature exists, but is extremely rare",3
+92-D,92,D,attested absence of feature,4
+92-X,92,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+92-NA,92,?,no information on feature is available,6
+93-A,93,A,feature is pervasive or obligatory,1
+93-B,93,B,feature is neither pervasive nor extremely rare,2
+93-C,93,C,"feature exists, but is extremely rare",3
+93-D,93,D,attested absence of feature,4
+93-X,93,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+93-NA,93,?,no information on feature is available,6
+94-A,94,A,feature is pervasive or obligatory,1
+94-B,94,B,feature is neither pervasive nor extremely rare,2
+94-C,94,C,"feature exists, but is extremely rare",3
+94-D,94,D,attested absence of feature,4
+94-X,94,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+94-NA,94,?,no information on feature is available,6
+95-A,95,A,feature is pervasive or obligatory,1
+95-B,95,B,feature is neither pervasive nor extremely rare,2
+95-C,95,C,"feature exists, but is extremely rare",3
+95-D,95,D,attested absence of feature,4
+95-X,95,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+95-NA,95,?,no information on feature is available,6
+96-A,96,A,feature is pervasive or obligatory,1
+96-B,96,B,feature is neither pervasive nor extremely rare,2
+96-C,96,C,"feature exists, but is extremely rare",3
+96-D,96,D,attested absence of feature,4
+96-X,96,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+96-NA,96,?,no information on feature is available,6
+97-A,97,A,feature is pervasive or obligatory,1
+97-B,97,B,feature is neither pervasive nor extremely rare,2
+97-C,97,C,"feature exists, but is extremely rare",3
+97-D,97,D,attested absence of feature,4
+97-X,97,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+97-NA,97,?,no information on feature is available,6
+98-A,98,A,feature is pervasive or obligatory,1
+98-B,98,B,feature is neither pervasive nor extremely rare,2
+98-C,98,C,"feature exists, but is extremely rare",3
+98-D,98,D,attested absence of feature,4
+98-X,98,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+98-NA,98,?,no information on feature is available,6
+99-A,99,A,feature is pervasive or obligatory,1
+99-B,99,B,feature is neither pervasive nor extremely rare,2
+99-C,99,C,"feature exists, but is extremely rare",3
+99-D,99,D,attested absence of feature,4
+99-X,99,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+99-NA,99,?,no information on feature is available,6
+100-A,100,A,feature is pervasive or obligatory,1
+100-B,100,B,feature is neither pervasive nor extremely rare,2
+100-C,100,C,"feature exists, but is extremely rare",3
+100-D,100,D,attested absence of feature,4
+100-X,100,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+100-NA,100,?,no information on feature is available,6
+101-A,101,A,feature is pervasive or obligatory,1
+101-B,101,B,feature is neither pervasive nor extremely rare,2
+101-C,101,C,"feature exists, but is extremely rare",3
+101-D,101,D,attested absence of feature,4
+101-X,101,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+101-NA,101,?,no information on feature is available,6
+102-A,102,A,feature is pervasive or obligatory,1
+102-B,102,B,feature is neither pervasive nor extremely rare,2
+102-C,102,C,"feature exists, but is extremely rare",3
+102-D,102,D,attested absence of feature,4
+102-X,102,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+102-NA,102,?,no information on feature is available,6
+103-A,103,A,feature is pervasive or obligatory,1
+103-B,103,B,feature is neither pervasive nor extremely rare,2
+103-C,103,C,"feature exists, but is extremely rare",3
+103-D,103,D,attested absence of feature,4
+103-X,103,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+103-NA,103,?,no information on feature is available,6
+104-A,104,A,feature is pervasive or obligatory,1
+104-B,104,B,feature is neither pervasive nor extremely rare,2
+104-C,104,C,"feature exists, but is extremely rare",3
+104-D,104,D,attested absence of feature,4
+104-X,104,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+104-NA,104,?,no information on feature is available,6
+105-A,105,A,feature is pervasive or obligatory,1
+105-B,105,B,feature is neither pervasive nor extremely rare,2
+105-C,105,C,"feature exists, but is extremely rare",3
+105-D,105,D,attested absence of feature,4
+105-X,105,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+105-NA,105,?,no information on feature is available,6
+106-A,106,A,feature is pervasive or obligatory,1
+106-B,106,B,feature is neither pervasive nor extremely rare,2
+106-C,106,C,"feature exists, but is extremely rare",3
+106-D,106,D,attested absence of feature,4
+106-X,106,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+106-NA,106,?,no information on feature is available,6
+107-A,107,A,feature is pervasive or obligatory,1
+107-B,107,B,feature is neither pervasive nor extremely rare,2
+107-C,107,C,"feature exists, but is extremely rare",3
+107-D,107,D,attested absence of feature,4
+107-X,107,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+107-NA,107,?,no information on feature is available,6
+108-A,108,A,feature is pervasive or obligatory,1
+108-B,108,B,feature is neither pervasive nor extremely rare,2
+108-C,108,C,"feature exists, but is extremely rare",3
+108-D,108,D,attested absence of feature,4
+108-X,108,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+108-NA,108,?,no information on feature is available,6
+109-A,109,A,feature is pervasive or obligatory,1
+109-B,109,B,feature is neither pervasive nor extremely rare,2
+109-C,109,C,"feature exists, but is extremely rare",3
+109-D,109,D,attested absence of feature,4
+109-X,109,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+109-NA,109,?,no information on feature is available,6
+110-A,110,A,feature is pervasive or obligatory,1
+110-B,110,B,feature is neither pervasive nor extremely rare,2
+110-C,110,C,"feature exists, but is extremely rare",3
+110-D,110,D,attested absence of feature,4
+110-X,110,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+110-NA,110,?,no information on feature is available,6
+111-A,111,A,feature is pervasive or obligatory,1
+111-B,111,B,feature is neither pervasive nor extremely rare,2
+111-C,111,C,"feature exists, but is extremely rare",3
+111-D,111,D,attested absence of feature,4
+111-X,111,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+111-NA,111,?,no information on feature is available,6
+112-A,112,A,feature is pervasive or obligatory,1
+112-B,112,B,feature is neither pervasive nor extremely rare,2
+112-C,112,C,"feature exists, but is extremely rare",3
+112-D,112,D,attested absence of feature,4
+112-X,112,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+112-NA,112,?,no information on feature is available,6
+113-A,113,A,feature is pervasive or obligatory,1
+113-B,113,B,feature is neither pervasive nor extremely rare,2
+113-C,113,C,"feature exists, but is extremely rare",3
+113-D,113,D,attested absence of feature,4
+113-X,113,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+113-NA,113,?,no information on feature is available,6
+114-A,114,A,feature is pervasive or obligatory,1
+114-B,114,B,feature is neither pervasive nor extremely rare,2
+114-C,114,C,"feature exists, but is extremely rare",3
+114-D,114,D,attested absence of feature,4
+114-X,114,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+114-NA,114,?,no information on feature is available,6
+115-A,115,A,feature is pervasive or obligatory,1
+115-B,115,B,feature is neither pervasive nor extremely rare,2
+115-C,115,C,"feature exists, but is extremely rare",3
+115-D,115,D,attested absence of feature,4
+115-X,115,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+115-NA,115,?,no information on feature is available,6
+116-A,116,A,feature is pervasive or obligatory,1
+116-B,116,B,feature is neither pervasive nor extremely rare,2
+116-C,116,C,"feature exists, but is extremely rare",3
+116-D,116,D,attested absence of feature,4
+116-X,116,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+116-NA,116,?,no information on feature is available,6
+117-A,117,A,feature is pervasive or obligatory,1
+117-B,117,B,feature is neither pervasive nor extremely rare,2
+117-C,117,C,"feature exists, but is extremely rare",3
+117-D,117,D,attested absence of feature,4
+117-X,117,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+117-NA,117,?,no information on feature is available,6
+118-A,118,A,feature is pervasive or obligatory,1
+118-B,118,B,feature is neither pervasive nor extremely rare,2
+118-C,118,C,"feature exists, but is extremely rare",3
+118-D,118,D,attested absence of feature,4
+118-X,118,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+118-NA,118,?,no information on feature is available,6
+119-A,119,A,feature is pervasive or obligatory,1
+119-B,119,B,feature is neither pervasive nor extremely rare,2
+119-C,119,C,"feature exists, but is extremely rare",3
+119-D,119,D,attested absence of feature,4
+119-X,119,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+119-NA,119,?,no information on feature is available,6
+120-A,120,A,feature is pervasive or obligatory,1
+120-B,120,B,feature is neither pervasive nor extremely rare,2
+120-C,120,C,"feature exists, but is extremely rare",3
+120-D,120,D,attested absence of feature,4
+120-X,120,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+120-NA,120,?,no information on feature is available,6
+121-A,121,A,feature is pervasive or obligatory,1
+121-B,121,B,feature is neither pervasive nor extremely rare,2
+121-C,121,C,"feature exists, but is extremely rare",3
+121-D,121,D,attested absence of feature,4
+121-X,121,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+121-NA,121,?,no information on feature is available,6
+122-A,122,A,feature is pervasive or obligatory,1
+122-B,122,B,feature is neither pervasive nor extremely rare,2
+122-C,122,C,"feature exists, but is extremely rare",3
+122-D,122,D,attested absence of feature,4
+122-X,122,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+122-NA,122,?,no information on feature is available,6
+123-A,123,A,feature is pervasive or obligatory,1
+123-B,123,B,feature is neither pervasive nor extremely rare,2
+123-C,123,C,"feature exists, but is extremely rare",3
+123-D,123,D,attested absence of feature,4
+123-X,123,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+123-NA,123,?,no information on feature is available,6
+124-A,124,A,feature is pervasive or obligatory,1
+124-B,124,B,feature is neither pervasive nor extremely rare,2
+124-C,124,C,"feature exists, but is extremely rare",3
+124-D,124,D,attested absence of feature,4
+124-X,124,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+124-NA,124,?,no information on feature is available,6
+125-A,125,A,feature is pervasive or obligatory,1
+125-B,125,B,feature is neither pervasive nor extremely rare,2
+125-C,125,C,"feature exists, but is extremely rare",3
+125-D,125,D,attested absence of feature,4
+125-X,125,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+125-NA,125,?,no information on feature is available,6
+126-A,126,A,feature is pervasive or obligatory,1
+126-B,126,B,feature is neither pervasive nor extremely rare,2
+126-C,126,C,"feature exists, but is extremely rare",3
+126-D,126,D,attested absence of feature,4
+126-X,126,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+126-NA,126,?,no information on feature is available,6
+127-A,127,A,feature is pervasive or obligatory,1
+127-B,127,B,feature is neither pervasive nor extremely rare,2
+127-C,127,C,"feature exists, but is extremely rare",3
+127-D,127,D,attested absence of feature,4
+127-X,127,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+127-NA,127,?,no information on feature is available,6
+128-A,128,A,feature is pervasive or obligatory,1
+128-B,128,B,feature is neither pervasive nor extremely rare,2
+128-C,128,C,"feature exists, but is extremely rare",3
+128-D,128,D,attested absence of feature,4
+128-X,128,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+128-NA,128,?,no information on feature is available,6
+129-A,129,A,feature is pervasive or obligatory,1
+129-B,129,B,feature is neither pervasive nor extremely rare,2
+129-C,129,C,"feature exists, but is extremely rare",3
+129-D,129,D,attested absence of feature,4
+129-X,129,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+129-NA,129,?,no information on feature is available,6
+130-A,130,A,feature is pervasive or obligatory,1
+130-B,130,B,feature is neither pervasive nor extremely rare,2
+130-C,130,C,"feature exists, but is extremely rare",3
+130-D,130,D,attested absence of feature,4
+130-X,130,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+130-NA,130,?,no information on feature is available,6
+131-A,131,A,feature is pervasive or obligatory,1
+131-B,131,B,feature is neither pervasive nor extremely rare,2
+131-C,131,C,"feature exists, but is extremely rare",3
+131-D,131,D,attested absence of feature,4
+131-X,131,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+131-NA,131,?,no information on feature is available,6
+132-A,132,A,feature is pervasive or obligatory,1
+132-B,132,B,feature is neither pervasive nor extremely rare,2
+132-C,132,C,"feature exists, but is extremely rare",3
+132-D,132,D,attested absence of feature,4
+132-X,132,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+132-NA,132,?,no information on feature is available,6
+133-A,133,A,feature is pervasive or obligatory,1
+133-B,133,B,feature is neither pervasive nor extremely rare,2
+133-C,133,C,"feature exists, but is extremely rare",3
+133-D,133,D,attested absence of feature,4
+133-X,133,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+133-NA,133,?,no information on feature is available,6
+134-A,134,A,feature is pervasive or obligatory,1
+134-B,134,B,feature is neither pervasive nor extremely rare,2
+134-C,134,C,"feature exists, but is extremely rare",3
+134-D,134,D,attested absence of feature,4
+134-X,134,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+134-NA,134,?,no information on feature is available,6
+135-A,135,A,feature is pervasive or obligatory,1
+135-B,135,B,feature is neither pervasive nor extremely rare,2
+135-C,135,C,"feature exists, but is extremely rare",3
+135-D,135,D,attested absence of feature,4
+135-X,135,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+135-NA,135,?,no information on feature is available,6
+136-A,136,A,feature is pervasive or obligatory,1
+136-B,136,B,feature is neither pervasive nor extremely rare,2
+136-C,136,C,"feature exists, but is extremely rare",3
+136-D,136,D,attested absence of feature,4
+136-X,136,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+136-NA,136,?,no information on feature is available,6
+137-A,137,A,feature is pervasive or obligatory,1
+137-B,137,B,feature is neither pervasive nor extremely rare,2
+137-C,137,C,"feature exists, but is extremely rare",3
+137-D,137,D,attested absence of feature,4
+137-X,137,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+137-NA,137,?,no information on feature is available,6
+138-A,138,A,feature is pervasive or obligatory,1
+138-B,138,B,feature is neither pervasive nor extremely rare,2
+138-C,138,C,"feature exists, but is extremely rare",3
+138-D,138,D,attested absence of feature,4
+138-X,138,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+138-NA,138,?,no information on feature is available,6
+139-A,139,A,feature is pervasive or obligatory,1
+139-B,139,B,feature is neither pervasive nor extremely rare,2
+139-C,139,C,"feature exists, but is extremely rare",3
+139-D,139,D,attested absence of feature,4
+139-X,139,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+139-NA,139,?,no information on feature is available,6
+140-A,140,A,feature is pervasive or obligatory,1
+140-B,140,B,feature is neither pervasive nor extremely rare,2
+140-C,140,C,"feature exists, but is extremely rare",3
+140-D,140,D,attested absence of feature,4
+140-X,140,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+140-NA,140,?,no information on feature is available,6
+141-A,141,A,feature is pervasive or obligatory,1
+141-B,141,B,feature is neither pervasive nor extremely rare,2
+141-C,141,C,"feature exists, but is extremely rare",3
+141-D,141,D,attested absence of feature,4
+141-X,141,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+141-NA,141,?,no information on feature is available,6
+142-A,142,A,feature is pervasive or obligatory,1
+142-B,142,B,feature is neither pervasive nor extremely rare,2
+142-C,142,C,"feature exists, but is extremely rare",3
+142-D,142,D,attested absence of feature,4
+142-X,142,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+142-NA,142,?,no information on feature is available,6
+143-A,143,A,feature is pervasive or obligatory,1
+143-B,143,B,feature is neither pervasive nor extremely rare,2
+143-C,143,C,"feature exists, but is extremely rare",3
+143-D,143,D,attested absence of feature,4
+143-X,143,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+143-NA,143,?,no information on feature is available,6
+144-A,144,A,feature is pervasive or obligatory,1
+144-B,144,B,feature is neither pervasive nor extremely rare,2
+144-C,144,C,"feature exists, but is extremely rare",3
+144-D,144,D,attested absence of feature,4
+144-X,144,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+144-NA,144,?,no information on feature is available,6
+145-A,145,A,feature is pervasive or obligatory,1
+145-B,145,B,feature is neither pervasive nor extremely rare,2
+145-C,145,C,"feature exists, but is extremely rare",3
+145-D,145,D,attested absence of feature,4
+145-X,145,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+145-NA,145,?,no information on feature is available,6
+146-A,146,A,feature is pervasive or obligatory,1
+146-B,146,B,feature is neither pervasive nor extremely rare,2
+146-C,146,C,"feature exists, but is extremely rare",3
+146-D,146,D,attested absence of feature,4
+146-X,146,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+146-NA,146,?,no information on feature is available,6
+147-A,147,A,feature is pervasive or obligatory,1
+147-B,147,B,feature is neither pervasive nor extremely rare,2
+147-C,147,C,"feature exists, but is extremely rare",3
+147-D,147,D,attested absence of feature,4
+147-X,147,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+147-NA,147,?,no information on feature is available,6
+148-A,148,A,feature is pervasive or obligatory,1
+148-B,148,B,feature is neither pervasive nor extremely rare,2
+148-C,148,C,"feature exists, but is extremely rare",3
+148-D,148,D,attested absence of feature,4
+148-X,148,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+148-NA,148,?,no information on feature is available,6
+149-A,149,A,feature is pervasive or obligatory,1
+149-B,149,B,feature is neither pervasive nor extremely rare,2
+149-C,149,C,"feature exists, but is extremely rare",3
+149-D,149,D,attested absence of feature,4
+149-X,149,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+149-NA,149,?,no information on feature is available,6
+150-A,150,A,feature is pervasive or obligatory,1
+150-B,150,B,feature is neither pervasive nor extremely rare,2
+150-C,150,C,"feature exists, but is extremely rare",3
+150-D,150,D,attested absence of feature,4
+150-X,150,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+150-NA,150,?,no information on feature is available,6
+151-A,151,A,feature is pervasive or obligatory,1
+151-B,151,B,feature is neither pervasive nor extremely rare,2
+151-C,151,C,"feature exists, but is extremely rare",3
+151-D,151,D,attested absence of feature,4
+151-X,151,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+151-NA,151,?,no information on feature is available,6
+152-A,152,A,feature is pervasive or obligatory,1
+152-B,152,B,feature is neither pervasive nor extremely rare,2
+152-C,152,C,"feature exists, but is extremely rare",3
+152-D,152,D,attested absence of feature,4
+152-X,152,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+152-NA,152,?,no information on feature is available,6
+153-A,153,A,feature is pervasive or obligatory,1
+153-B,153,B,feature is neither pervasive nor extremely rare,2
+153-C,153,C,"feature exists, but is extremely rare",3
+153-D,153,D,attested absence of feature,4
+153-X,153,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+153-NA,153,?,no information on feature is available,6
+154-A,154,A,feature is pervasive or obligatory,1
+154-B,154,B,feature is neither pervasive nor extremely rare,2
+154-C,154,C,"feature exists, but is extremely rare",3
+154-D,154,D,attested absence of feature,4
+154-X,154,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+154-NA,154,?,no information on feature is available,6
+155-A,155,A,feature is pervasive or obligatory,1
+155-B,155,B,feature is neither pervasive nor extremely rare,2
+155-C,155,C,"feature exists, but is extremely rare",3
+155-D,155,D,attested absence of feature,4
+155-X,155,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+155-NA,155,?,no information on feature is available,6
+156-A,156,A,feature is pervasive or obligatory,1
+156-B,156,B,feature is neither pervasive nor extremely rare,2
+156-C,156,C,"feature exists, but is extremely rare",3
+156-D,156,D,attested absence of feature,4
+156-X,156,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+156-NA,156,?,no information on feature is available,6
+157-A,157,A,feature is pervasive or obligatory,1
+157-B,157,B,feature is neither pervasive nor extremely rare,2
+157-C,157,C,"feature exists, but is extremely rare",3
+157-D,157,D,attested absence of feature,4
+157-X,157,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+157-NA,157,?,no information on feature is available,6
+158-A,158,A,feature is pervasive or obligatory,1
+158-B,158,B,feature is neither pervasive nor extremely rare,2
+158-C,158,C,"feature exists, but is extremely rare",3
+158-D,158,D,attested absence of feature,4
+158-X,158,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+158-NA,158,?,no information on feature is available,6
+159-A,159,A,feature is pervasive or obligatory,1
+159-B,159,B,feature is neither pervasive nor extremely rare,2
+159-C,159,C,"feature exists, but is extremely rare",3
+159-D,159,D,attested absence of feature,4
+159-X,159,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+159-NA,159,?,no information on feature is available,6
+160-A,160,A,feature is pervasive or obligatory,1
+160-B,160,B,feature is neither pervasive nor extremely rare,2
+160-C,160,C,"feature exists, but is extremely rare",3
+160-D,160,D,attested absence of feature,4
+160-X,160,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+160-NA,160,?,no information on feature is available,6
+161-A,161,A,feature is pervasive or obligatory,1
+161-B,161,B,feature is neither pervasive nor extremely rare,2
+161-C,161,C,"feature exists, but is extremely rare",3
+161-D,161,D,attested absence of feature,4
+161-X,161,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+161-NA,161,?,no information on feature is available,6
+162-A,162,A,feature is pervasive or obligatory,1
+162-B,162,B,feature is neither pervasive nor extremely rare,2
+162-C,162,C,"feature exists, but is extremely rare",3
+162-D,162,D,attested absence of feature,4
+162-X,162,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+162-NA,162,?,no information on feature is available,6
+163-A,163,A,feature is pervasive or obligatory,1
+163-B,163,B,feature is neither pervasive nor extremely rare,2
+163-C,163,C,"feature exists, but is extremely rare",3
+163-D,163,D,attested absence of feature,4
+163-X,163,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+163-NA,163,?,no information on feature is available,6
+164-A,164,A,feature is pervasive or obligatory,1
+164-B,164,B,feature is neither pervasive nor extremely rare,2
+164-C,164,C,"feature exists, but is extremely rare",3
+164-D,164,D,attested absence of feature,4
+164-X,164,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+164-NA,164,?,no information on feature is available,6
+165-A,165,A,feature is pervasive or obligatory,1
+165-B,165,B,feature is neither pervasive nor extremely rare,2
+165-C,165,C,"feature exists, but is extremely rare",3
+165-D,165,D,attested absence of feature,4
+165-X,165,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+165-NA,165,?,no information on feature is available,6
+166-A,166,A,feature is pervasive or obligatory,1
+166-B,166,B,feature is neither pervasive nor extremely rare,2
+166-C,166,C,"feature exists, but is extremely rare",3
+166-D,166,D,attested absence of feature,4
+166-X,166,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+166-NA,166,?,no information on feature is available,6
+167-A,167,A,feature is pervasive or obligatory,1
+167-B,167,B,feature is neither pervasive nor extremely rare,2
+167-C,167,C,"feature exists, but is extremely rare",3
+167-D,167,D,attested absence of feature,4
+167-X,167,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+167-NA,167,?,no information on feature is available,6
+168-A,168,A,feature is pervasive or obligatory,1
+168-B,168,B,feature is neither pervasive nor extremely rare,2
+168-C,168,C,"feature exists, but is extremely rare",3
+168-D,168,D,attested absence of feature,4
+168-X,168,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+168-NA,168,?,no information on feature is available,6
+169-A,169,A,feature is pervasive or obligatory,1
+169-B,169,B,feature is neither pervasive nor extremely rare,2
+169-C,169,C,"feature exists, but is extremely rare",3
+169-D,169,D,attested absence of feature,4
+169-X,169,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+169-NA,169,?,no information on feature is available,6
+170-A,170,A,feature is pervasive or obligatory,1
+170-B,170,B,feature is neither pervasive nor extremely rare,2
+170-C,170,C,"feature exists, but is extremely rare",3
+170-D,170,D,attested absence of feature,4
+170-X,170,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+170-NA,170,?,no information on feature is available,6
+171-A,171,A,feature is pervasive or obligatory,1
+171-B,171,B,feature is neither pervasive nor extremely rare,2
+171-C,171,C,"feature exists, but is extremely rare",3
+171-D,171,D,attested absence of feature,4
+171-X,171,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+171-NA,171,?,no information on feature is available,6
+172-A,172,A,feature is pervasive or obligatory,1
+172-B,172,B,feature is neither pervasive nor extremely rare,2
+172-C,172,C,"feature exists, but is extremely rare",3
+172-D,172,D,attested absence of feature,4
+172-X,172,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+172-NA,172,?,no information on feature is available,6
+173-A,173,A,feature is pervasive or obligatory,1
+173-B,173,B,feature is neither pervasive nor extremely rare,2
+173-C,173,C,"feature exists, but is extremely rare",3
+173-D,173,D,attested absence of feature,4
+173-X,173,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+173-NA,173,?,no information on feature is available,6
+174-A,174,A,feature is pervasive or obligatory,1
+174-B,174,B,feature is neither pervasive nor extremely rare,2
+174-C,174,C,"feature exists, but is extremely rare",3
+174-D,174,D,attested absence of feature,4
+174-X,174,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+174-NA,174,?,no information on feature is available,6
+175-A,175,A,feature is pervasive or obligatory,1
+175-B,175,B,feature is neither pervasive nor extremely rare,2
+175-C,175,C,"feature exists, but is extremely rare",3
+175-D,175,D,attested absence of feature,4
+175-X,175,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+175-NA,175,?,no information on feature is available,6
+176-A,176,A,feature is pervasive or obligatory,1
+176-B,176,B,feature is neither pervasive nor extremely rare,2
+176-C,176,C,"feature exists, but is extremely rare",3
+176-D,176,D,attested absence of feature,4
+176-X,176,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+176-NA,176,?,no information on feature is available,6
+177-A,177,A,feature is pervasive or obligatory,1
+177-B,177,B,feature is neither pervasive nor extremely rare,2
+177-C,177,C,"feature exists, but is extremely rare",3
+177-D,177,D,attested absence of feature,4
+177-X,177,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+177-NA,177,?,no information on feature is available,6
+178-A,178,A,feature is pervasive or obligatory,1
+178-B,178,B,feature is neither pervasive nor extremely rare,2
+178-C,178,C,"feature exists, but is extremely rare",3
+178-D,178,D,attested absence of feature,4
+178-X,178,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+178-NA,178,?,no information on feature is available,6
+179-A,179,A,feature is pervasive or obligatory,1
+179-B,179,B,feature is neither pervasive nor extremely rare,2
+179-C,179,C,"feature exists, but is extremely rare",3
+179-D,179,D,attested absence of feature,4
+179-X,179,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+179-NA,179,?,no information on feature is available,6
+180-A,180,A,feature is pervasive or obligatory,1
+180-B,180,B,feature is neither pervasive nor extremely rare,2
+180-C,180,C,"feature exists, but is extremely rare",3
+180-D,180,D,attested absence of feature,4
+180-X,180,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+180-NA,180,?,no information on feature is available,6
+181-A,181,A,feature is pervasive or obligatory,1
+181-B,181,B,feature is neither pervasive nor extremely rare,2
+181-C,181,C,"feature exists, but is extremely rare",3
+181-D,181,D,attested absence of feature,4
+181-X,181,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+181-NA,181,?,no information on feature is available,6
+182-A,182,A,feature is pervasive or obligatory,1
+182-B,182,B,feature is neither pervasive nor extremely rare,2
+182-C,182,C,"feature exists, but is extremely rare",3
+182-D,182,D,attested absence of feature,4
+182-X,182,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+182-NA,182,?,no information on feature is available,6
+183-A,183,A,feature is pervasive or obligatory,1
+183-B,183,B,feature is neither pervasive nor extremely rare,2
+183-C,183,C,"feature exists, but is extremely rare",3
+183-D,183,D,attested absence of feature,4
+183-X,183,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+183-NA,183,?,no information on feature is available,6
+184-A,184,A,feature is pervasive or obligatory,1
+184-B,184,B,feature is neither pervasive nor extremely rare,2
+184-C,184,C,"feature exists, but is extremely rare",3
+184-D,184,D,attested absence of feature,4
+184-X,184,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+184-NA,184,?,no information on feature is available,6
+185-A,185,A,feature is pervasive or obligatory,1
+185-B,185,B,feature is neither pervasive nor extremely rare,2
+185-C,185,C,"feature exists, but is extremely rare",3
+185-D,185,D,attested absence of feature,4
+185-X,185,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+185-NA,185,?,no information on feature is available,6
+186-A,186,A,feature is pervasive or obligatory,1
+186-B,186,B,feature is neither pervasive nor extremely rare,2
+186-C,186,C,"feature exists, but is extremely rare",3
+186-D,186,D,attested absence of feature,4
+186-X,186,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+186-NA,186,?,no information on feature is available,6
+187-A,187,A,feature is pervasive or obligatory,1
+187-B,187,B,feature is neither pervasive nor extremely rare,2
+187-C,187,C,"feature exists, but is extremely rare",3
+187-D,187,D,attested absence of feature,4
+187-X,187,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+187-NA,187,?,no information on feature is available,6
+188-A,188,A,feature is pervasive or obligatory,1
+188-B,188,B,feature is neither pervasive nor extremely rare,2
+188-C,188,C,"feature exists, but is extremely rare",3
+188-D,188,D,attested absence of feature,4
+188-X,188,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+188-NA,188,?,no information on feature is available,6
+189-A,189,A,feature is pervasive or obligatory,1
+189-B,189,B,feature is neither pervasive nor extremely rare,2
+189-C,189,C,"feature exists, but is extremely rare",3
+189-D,189,D,attested absence of feature,4
+189-X,189,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+189-NA,189,?,no information on feature is available,6
+190-A,190,A,feature is pervasive or obligatory,1
+190-B,190,B,feature is neither pervasive nor extremely rare,2
+190-C,190,C,"feature exists, but is extremely rare",3
+190-D,190,D,attested absence of feature,4
+190-X,190,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+190-NA,190,?,no information on feature is available,6
+191-A,191,A,feature is pervasive or obligatory,1
+191-B,191,B,feature is neither pervasive nor extremely rare,2
+191-C,191,C,"feature exists, but is extremely rare",3
+191-D,191,D,attested absence of feature,4
+191-X,191,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+191-NA,191,?,no information on feature is available,6
+192-A,192,A,feature is pervasive or obligatory,1
+192-B,192,B,feature is neither pervasive nor extremely rare,2
+192-C,192,C,"feature exists, but is extremely rare",3
+192-D,192,D,attested absence of feature,4
+192-X,192,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+192-NA,192,?,no information on feature is available,6
+193-A,193,A,feature is pervasive or obligatory,1
+193-B,193,B,feature is neither pervasive nor extremely rare,2
+193-C,193,C,"feature exists, but is extremely rare",3
+193-D,193,D,attested absence of feature,4
+193-X,193,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+193-NA,193,?,no information on feature is available,6
+194-A,194,A,feature is pervasive or obligatory,1
+194-B,194,B,feature is neither pervasive nor extremely rare,2
+194-C,194,C,"feature exists, but is extremely rare",3
+194-D,194,D,attested absence of feature,4
+194-X,194,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+194-NA,194,?,no information on feature is available,6
+195-A,195,A,feature is pervasive or obligatory,1
+195-B,195,B,feature is neither pervasive nor extremely rare,2
+195-C,195,C,"feature exists, but is extremely rare",3
+195-D,195,D,attested absence of feature,4
+195-X,195,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+195-NA,195,?,no information on feature is available,6
+196-A,196,A,feature is pervasive or obligatory,1
+196-B,196,B,feature is neither pervasive nor extremely rare,2
+196-C,196,C,"feature exists, but is extremely rare",3
+196-D,196,D,attested absence of feature,4
+196-X,196,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+196-NA,196,?,no information on feature is available,6
+197-A,197,A,feature is pervasive or obligatory,1
+197-B,197,B,feature is neither pervasive nor extremely rare,2
+197-C,197,C,"feature exists, but is extremely rare",3
+197-D,197,D,attested absence of feature,4
+197-X,197,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+197-NA,197,?,no information on feature is available,6
+198-A,198,A,feature is pervasive or obligatory,1
+198-B,198,B,feature is neither pervasive nor extremely rare,2
+198-C,198,C,"feature exists, but is extremely rare",3
+198-D,198,D,attested absence of feature,4
+198-X,198,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+198-NA,198,?,no information on feature is available,6
+199-A,199,A,feature is pervasive or obligatory,1
+199-B,199,B,feature is neither pervasive nor extremely rare,2
+199-C,199,C,"feature exists, but is extremely rare",3
+199-D,199,D,attested absence of feature,4
+199-X,199,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+199-NA,199,?,no information on feature is available,6
+200-A,200,A,feature is pervasive or obligatory,1
+200-B,200,B,feature is neither pervasive nor extremely rare,2
+200-C,200,C,"feature exists, but is extremely rare",3
+200-D,200,D,attested absence of feature,4
+200-X,200,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+200-NA,200,?,no information on feature is available,6
+201-A,201,A,feature is pervasive or obligatory,1
+201-B,201,B,feature is neither pervasive nor extremely rare,2
+201-C,201,C,"feature exists, but is extremely rare",3
+201-D,201,D,attested absence of feature,4
+201-X,201,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+201-NA,201,?,no information on feature is available,6
+202-A,202,A,feature is pervasive or obligatory,1
+202-B,202,B,feature is neither pervasive nor extremely rare,2
+202-C,202,C,"feature exists, but is extremely rare",3
+202-D,202,D,attested absence of feature,4
+202-X,202,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+202-NA,202,?,no information on feature is available,6
+203-A,203,A,feature is pervasive or obligatory,1
+203-B,203,B,feature is neither pervasive nor extremely rare,2
+203-C,203,C,"feature exists, but is extremely rare",3
+203-D,203,D,attested absence of feature,4
+203-X,203,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+203-NA,203,?,no information on feature is available,6
+204-A,204,A,feature is pervasive or obligatory,1
+204-B,204,B,feature is neither pervasive nor extremely rare,2
+204-C,204,C,"feature exists, but is extremely rare",3
+204-D,204,D,attested absence of feature,4
+204-X,204,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+204-NA,204,?,no information on feature is available,6
+205-A,205,A,feature is pervasive or obligatory,1
+205-B,205,B,feature is neither pervasive nor extremely rare,2
+205-C,205,C,"feature exists, but is extremely rare",3
+205-D,205,D,attested absence of feature,4
+205-X,205,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+205-NA,205,?,no information on feature is available,6
+206-A,206,A,feature is pervasive or obligatory,1
+206-B,206,B,feature is neither pervasive nor extremely rare,2
+206-C,206,C,"feature exists, but is extremely rare",3
+206-D,206,D,attested absence of feature,4
+206-X,206,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+206-NA,206,?,no information on feature is available,6
+207-A,207,A,feature is pervasive or obligatory,1
+207-B,207,B,feature is neither pervasive nor extremely rare,2
+207-C,207,C,"feature exists, but is extremely rare",3
+207-D,207,D,attested absence of feature,4
+207-X,207,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+207-NA,207,?,no information on feature is available,6
+208-A,208,A,feature is pervasive or obligatory,1
+208-B,208,B,feature is neither pervasive nor extremely rare,2
+208-C,208,C,"feature exists, but is extremely rare",3
+208-D,208,D,attested absence of feature,4
+208-X,208,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+208-NA,208,?,no information on feature is available,6
+209-A,209,A,feature is pervasive or obligatory,1
+209-B,209,B,feature is neither pervasive nor extremely rare,2
+209-C,209,C,"feature exists, but is extremely rare",3
+209-D,209,D,attested absence of feature,4
+209-X,209,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+209-NA,209,?,no information on feature is available,6
+210-A,210,A,feature is pervasive or obligatory,1
+210-B,210,B,feature is neither pervasive nor extremely rare,2
+210-C,210,C,"feature exists, but is extremely rare",3
+210-D,210,D,attested absence of feature,4
+210-X,210,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+210-NA,210,?,no information on feature is available,6
+211-A,211,A,feature is pervasive or obligatory,1
+211-B,211,B,feature is neither pervasive nor extremely rare,2
+211-C,211,C,"feature exists, but is extremely rare",3
+211-D,211,D,attested absence of feature,4
+211-X,211,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+211-NA,211,?,no information on feature is available,6
+212-A,212,A,feature is pervasive or obligatory,1
+212-B,212,B,feature is neither pervasive nor extremely rare,2
+212-C,212,C,"feature exists, but is extremely rare",3
+212-D,212,D,attested absence of feature,4
+212-X,212,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+212-NA,212,?,no information on feature is available,6
+213-A,213,A,feature is pervasive or obligatory,1
+213-B,213,B,feature is neither pervasive nor extremely rare,2
+213-C,213,C,"feature exists, but is extremely rare",3
+213-D,213,D,attested absence of feature,4
+213-X,213,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+213-NA,213,?,no information on feature is available,6
+214-A,214,A,feature is pervasive or obligatory,1
+214-B,214,B,feature is neither pervasive nor extremely rare,2
+214-C,214,C,"feature exists, but is extremely rare",3
+214-D,214,D,attested absence of feature,4
+214-X,214,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+214-NA,214,?,no information on feature is available,6
+215-A,215,A,feature is pervasive or obligatory,1
+215-B,215,B,feature is neither pervasive nor extremely rare,2
+215-C,215,C,"feature exists, but is extremely rare",3
+215-D,215,D,attested absence of feature,4
+215-X,215,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+215-NA,215,?,no information on feature is available,6
+216-A,216,A,feature is pervasive or obligatory,1
+216-B,216,B,feature is neither pervasive nor extremely rare,2
+216-C,216,C,"feature exists, but is extremely rare",3
+216-D,216,D,attested absence of feature,4
+216-X,216,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+216-NA,216,?,no information on feature is available,6
+217-A,217,A,feature is pervasive or obligatory,1
+217-B,217,B,feature is neither pervasive nor extremely rare,2
+217-C,217,C,"feature exists, but is extremely rare",3
+217-D,217,D,attested absence of feature,4
+217-X,217,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+217-NA,217,?,no information on feature is available,6
+218-A,218,A,feature is pervasive or obligatory,1
+218-B,218,B,feature is neither pervasive nor extremely rare,2
+218-C,218,C,"feature exists, but is extremely rare",3
+218-D,218,D,attested absence of feature,4
+218-X,218,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+218-NA,218,?,no information on feature is available,6
+219-A,219,A,feature is pervasive or obligatory,1
+219-B,219,B,feature is neither pervasive nor extremely rare,2
+219-C,219,C,"feature exists, but is extremely rare",3
+219-D,219,D,attested absence of feature,4
+219-X,219,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+219-NA,219,?,no information on feature is available,6
+220-A,220,A,feature is pervasive or obligatory,1
+220-B,220,B,feature is neither pervasive nor extremely rare,2
+220-C,220,C,"feature exists, but is extremely rare",3
+220-D,220,D,attested absence of feature,4
+220-X,220,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+220-NA,220,?,no information on feature is available,6
+221-A,221,A,feature is pervasive or obligatory,1
+221-B,221,B,feature is neither pervasive nor extremely rare,2
+221-C,221,C,"feature exists, but is extremely rare",3
+221-D,221,D,attested absence of feature,4
+221-X,221,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+221-NA,221,?,no information on feature is available,6
+222-A,222,A,feature is pervasive or obligatory,1
+222-B,222,B,feature is neither pervasive nor extremely rare,2
+222-C,222,C,"feature exists, but is extremely rare",3
+222-D,222,D,attested absence of feature,4
+222-X,222,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+222-NA,222,?,no information on feature is available,6
+223-A,223,A,feature is pervasive or obligatory,1
+223-B,223,B,feature is neither pervasive nor extremely rare,2
+223-C,223,C,"feature exists, but is extremely rare",3
+223-D,223,D,attested absence of feature,4
+223-X,223,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+223-NA,223,?,no information on feature is available,6
+224-A,224,A,feature is pervasive or obligatory,1
+224-B,224,B,feature is neither pervasive nor extremely rare,2
+224-C,224,C,"feature exists, but is extremely rare",3
+224-D,224,D,attested absence of feature,4
+224-X,224,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+224-NA,224,?,no information on feature is available,6
+225-A,225,A,feature is pervasive or obligatory,1
+225-B,225,B,feature is neither pervasive nor extremely rare,2
+225-C,225,C,"feature exists, but is extremely rare",3
+225-D,225,D,attested absence of feature,4
+225-X,225,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+225-NA,225,?,no information on feature is available,6
+226-A,226,A,feature is pervasive or obligatory,1
+226-B,226,B,feature is neither pervasive nor extremely rare,2
+226-C,226,C,"feature exists, but is extremely rare",3
+226-D,226,D,attested absence of feature,4
+226-X,226,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+226-NA,226,?,no information on feature is available,6
+227-A,227,A,feature is pervasive or obligatory,1
+227-B,227,B,feature is neither pervasive nor extremely rare,2
+227-C,227,C,"feature exists, but is extremely rare",3
+227-D,227,D,attested absence of feature,4
+227-X,227,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+227-NA,227,?,no information on feature is available,6
+228-A,228,A,feature is pervasive or obligatory,1
+228-B,228,B,feature is neither pervasive nor extremely rare,2
+228-C,228,C,"feature exists, but is extremely rare",3
+228-D,228,D,attested absence of feature,4
+228-X,228,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+228-NA,228,?,no information on feature is available,6
+229-A,229,A,feature is pervasive or obligatory,1
+229-B,229,B,feature is neither pervasive nor extremely rare,2
+229-C,229,C,"feature exists, but is extremely rare",3
+229-D,229,D,attested absence of feature,4
+229-X,229,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+229-NA,229,?,no information on feature is available,6
+230-A,230,A,feature is pervasive or obligatory,1
+230-B,230,B,feature is neither pervasive nor extremely rare,2
+230-C,230,C,"feature exists, but is extremely rare",3
+230-D,230,D,attested absence of feature,4
+230-X,230,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+230-NA,230,?,no information on feature is available,6
+231-A,231,A,feature is pervasive or obligatory,1
+231-B,231,B,feature is neither pervasive nor extremely rare,2
+231-C,231,C,"feature exists, but is extremely rare",3
+231-D,231,D,attested absence of feature,4
+231-X,231,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+231-NA,231,?,no information on feature is available,6
+232-A,232,A,feature is pervasive or obligatory,1
+232-B,232,B,feature is neither pervasive nor extremely rare,2
+232-C,232,C,"feature exists, but is extremely rare",3
+232-D,232,D,attested absence of feature,4
+232-X,232,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+232-NA,232,?,no information on feature is available,6
+233-A,233,A,feature is pervasive or obligatory,1
+233-B,233,B,feature is neither pervasive nor extremely rare,2
+233-C,233,C,"feature exists, but is extremely rare",3
+233-D,233,D,attested absence of feature,4
+233-X,233,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+233-NA,233,?,no information on feature is available,6
+234-A,234,A,feature is pervasive or obligatory,1
+234-B,234,B,feature is neither pervasive nor extremely rare,2
+234-C,234,C,"feature exists, but is extremely rare",3
+234-D,234,D,attested absence of feature,4
+234-X,234,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+234-NA,234,?,no information on feature is available,6
+235-A,235,A,feature is pervasive or obligatory,1
+235-B,235,B,feature is neither pervasive nor extremely rare,2
+235-C,235,C,"feature exists, but is extremely rare",3
+235-D,235,D,attested absence of feature,4
+235-X,235,X,feature is not applicable (given the structural make-up of the variety/P/C),5
+235-NA,235,?,no information on feature is available,6
