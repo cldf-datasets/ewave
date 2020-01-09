@@ -5,7 +5,7 @@
             "@language": "en"
         }
     ],
-    "dc:bibliographicCitation": "Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013. The Electronic World Atlas of Varieties of English. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://ewave-atlas.org)",
+    "dc:bibliographicCitation": "Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)",
     "dc:bibliographicCitation ": "Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013.\nThe Electronic World Atlas of Varieties of English.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ewave-atlas.org, Accessed on 2018-03-16.)\n",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:creator": "Kortmann, Bernd & Lunkenheimer, Kerstin",
@@ -21,7 +21,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/ewave",
-            "dc:created": "5c91e52"
+            "dc:created": "a25cfaa"
         },
         {
             "rdf:type": "prov:Entity",

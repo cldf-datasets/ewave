@@ -4,7 +4,7 @@
 
 Cite the source dataset as
 
-> Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013. The Electronic World Atlas of Varieties of English. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://ewave-atlas.org)
+> Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)
 
 This dataset is licensed under a CC-BY-3.0 license
 
