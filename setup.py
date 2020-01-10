@@ -12,6 +12,7 @@ setup(
         ]
     },
     install_requires=[
+        'pycldf>=1.10',
         'cldfbench',
     ],
     extras_require={

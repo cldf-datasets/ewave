@@ -49,8 +49,7 @@ class Dataset(BaseDataset):
         ds.add_table('contributors.csv', 'ID', 'Name', 'URL', 'Address', 'Email')
 
         # We merge the data from contributions.csv into languages.csv for simplicity:
-        ds.tablegroup.tables = [
-            t for t in ds.tablegroup.tables if t.url.string != 'contributions.csv']
+        ds.remove_table('contributions.csv')
 
         # Varieties have a region, a type, an abbreviation and contributors.
         ds.add_columns(
@@ -116,11 +115,7 @@ Two more things should also be noted here:
             }
         )
         # ... but no Contribution_ID anymore:
-        ds['ValueTable'].tableSchema.columns = [
-            c for c in ds['ValueTable'].tableSchema.columns if c.name != 'Contribution_ID']
-        ds['ValueTable'].tableSchema.foreignKeys = [
-            c for c in ds['ValueTable'].tableSchema.foreignKeys
-            if 'Contribution_ID' not in c.columnReference]
+        ds.remove_columns('ValueTable', 'Contribution_ID')
 
         # Examples may have sources:
         ds.add_columns(
