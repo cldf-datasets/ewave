@@ -1,13 +1,13 @@
 ID,Name,Description
-1,Pronouns,
-2,Noun Phrase,
-3,Tense & Aspect,
-4,Modal Verbs,
-5,Verb Morphology,
-6,Negation,
-7,Agreement,
-8,Relativization,
-9,Complementation,
-10,Adverbial Subordination,
-11,Adverbs & Prepositions,
-12,Discourse & Word Order,
+1,Pronouns,"Pronouns, pronoun exchange, nominal gender"
+2,Noun Phrase,Noun phrase
+3,Tense & Aspect,Verb phrase I: tense and aspect
+4,Modal Verbs,Verb phrase II: modal verbs
+5,Verb Morphology,Verb phrase III: verb morphology
+6,Negation,Negation
+7,Agreement,Agreement
+8,Relativization,Relativization
+9,Complementation,Complementation
+10,Adverbial Subordination,Adverbial Subordination
+11,Adverbs & Prepositions,Adverbs and prepositions
+12,Discourse & Word Order,Discourse organization and word order

@@ -141,7 +141,7 @@ Two more things should also be noted here:
             {'ID': r[0], 'Name': r[1], 'Description': r[2]}
             for r in self.raw_dir.read_csv('varietytype.psv', delimiter='|')]
         args.writer.objects['featurecategories.csv'] = [
-            {'ID': r[0], 'Name': r[1]}
+            {'ID': r[0], 'Name': r[1], 'Description': r[2]}
             for r in self.raw_dir.read_csv('featurecategory.psv', delimiter='|')]
         args.writer.objects['regions.csv'] = [
             {'ID': r[0], 'Name': r[1]} for r in self.raw_dir.read_csv('region.psv', delimiter='|')]
