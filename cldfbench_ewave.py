@@ -5,8 +5,6 @@ from pycldf import StructureDataset, Reference
 from cldfbench import Dataset as BaseDataset
 from cldfbench import CLDFSpec, Metadata
 
-URL = "https://cdstar.shh.mpg.de/bitstreams/EAEA0-B49C-97B6-CA70-0/ewave_dataset.cldf.zip"
-
 
 class MetadataWithTravis(Metadata):
     def markdown(self):
@@ -35,7 +33,7 @@ class Dataset(BaseDataset):
             default_metadata_path=self.raw_dir / 'StructureDataset-metadata.json')
 
     def cmd_download(self, args):
-        self.raw_dir.download_and_unpack(URL)
+        pass
 
     def cmd_makecldf(self, args):
         #

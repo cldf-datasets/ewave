@@ -5,7 +5,7 @@
             "@language": "en"
         }
     ],
-    "dc:bibliographicCitation": "Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)",
+    "dc:bibliographicCitation": "Kortmann, Bernd & Lunkenheimer, Kerstin & Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)",
     "dc:bibliographicCitation ": "Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013.\nThe Electronic World Atlas of Varieties of English.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ewave-atlas.org, Accessed on 2018-03-16.)\n",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:creator": "Kortmann, Bernd & Lunkenheimer, Kerstin",
@@ -21,13 +21,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/ewave",
-            "dc:created": "31b1493"
+            "dc:created": "6afffe8"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.1-8-g0b09431"
+            "dc:created": "eWAVE-3.0"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -48,7 +48,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 17860,
+            "dc:extent": 18095,
             "aboutUrl": "http://ewave-atlas.org/values/{ID}",
             "tableSchema": {
                 "columns": [
@@ -162,7 +162,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 4118,
+            "dc:extent": 4189,
             "tableSchema": {
                 "columns": [
                     {
@@ -377,7 +377,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 76,
+            "dc:extent": 77,
             "aboutUrl": "http://ewave-atlas.org/varieties/{ID}",
             "tableSchema": {
                 "columns": [
@@ -560,7 +560,7 @@
             "url": "featurecategories.csv"
         },
         {
-            "dc:extent": 85,
+            "dc:extent": 87,
             "tableSchema": {
                 "columns": [
                     {
