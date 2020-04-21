@@ -21,13 +21,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/ewave",
-            "dc:created": "6afffe8"
+            "dc:created": "v3.0"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "eWAVE-3.0"
+            "dc:created": "v4.2.1"
         }
     ],
     "prov:wasGeneratedBy": [
