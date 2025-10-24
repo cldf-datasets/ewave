@@ -41,10 +41,28 @@ class Dataset(BaseDataset):
         #
         ds = args.writer.cldf
         # Add tables for controlled vocabularies:
-        ds.add_table('regions.csv', 'ID', 'Name')
-        ds.add_table('varietytypes.csv', 'ID', 'Name', 'Description')
-        ds.add_table('featurecategories.csv', 'ID', 'Name', 'Description')
-        ds.add_table('contributors.csv', 'ID', 'Name', 'URL', 'Address', 'Email')
+        ds.add_table(
+            'regions.csv', 
+            {'name': 'ID', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id'},
+            {'name': 'Name', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#name'},
+        )
+        ds.add_table(
+            'varietytypes.csv', 
+            {'name': 'ID', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id'},
+            {'name': 'Name', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#name'},
+            'Description')
+        ds.add_table(
+            'featurecategories.csv', 
+            {'name': 'ID', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id'},
+            {'name': 'Name', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#name'},
+            'Description')
+        ds.add_table(
+            'contributors.csv', 
+            {'name': 'ID', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id'},
+            {'name': 'Name', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#name'},
+            'URL', 
+            'Address', 
+            'Email')
 
         # We merge the data from contributions.csv into languages.csv for simplicity:
         ds.remove_table('contributions.csv')
@@ -125,7 +143,13 @@ Two more things should also be noted here:
             }
         )
 
-        history = ds.add_table('history.csv', 'Version', 'Language_ID', 'Parameter_ID', 'Code_ID')
+        history = ds.add_table(
+            'history.csv', 
+            {'name': 'ID', 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id'}, 
+            'Version', 
+            'Language_ID', 
+            'Parameter_ID', 
+            'Code_ID')
         history.add_foreign_key('Language_ID', 'languages.csv', 'ID')
         history.add_foreign_key('Parameter_ID', 'parameters.csv', 'ID')
         history.add_foreign_key('Code_ID', 'codes.csv', 'ID')
@@ -144,8 +168,9 @@ Two more things should also be noted here:
         args.writer.objects['regions.csv'] = [
             {'ID': r[0], 'Name': r[1]} for r in self.raw_dir.read_csv('region.psv', delimiter='|')]
 
-        for lid, pid, cid, _ in self.raw_dir.read_json('changes.json')['2013']:
+        for id_, (lid, pid, cid, _) in enumerate(self.raw_dir.read_json('changes.json')['2013']):
             args.writer.objects['history.csv'].append({
+                'ID': str(id_),
                 'Version': '1.0',
                 'Language_ID': lid,
                 'Parameter_ID': pid,

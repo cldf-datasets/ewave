@@ -18,22 +18,22 @@
     "dcat:accessURL": "http://ewave-atlas.org/download",
     "prov:wasDerivedFrom": [
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/ewave",
-            "dc:created": "v3.0"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v3.0-1-g02a93c2",
+            "dc:title": "Repository"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v5.2",
+            "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.5.2"
+            "dc:description": "3.12.3"
         },
         {
             "dc:title": "python-packages",
@@ -42,9 +42,6 @@
     ],
     "rdf:ID": "ewave",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
-    "dialect": {
-        "commentPrefix": null
-    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
@@ -405,8 +402,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -90,
-                            "maximum": 90
+                            "minimum": "-90",
+                            "maximum": "90"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
                         "required": false,
@@ -415,8 +412,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -180,
-                            "maximum": 180
+                            "minimum": "-180",
+                            "maximum": "180"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
                         "required": false,
@@ -508,13 +505,16 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                         "name": "Name"
                     }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             },
             "url": "regions.csv"
@@ -524,17 +524,20 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                         "name": "Name"
                     },
                     {
                         "datatype": "string",
                         "name": "Description"
                     }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             },
             "url": "varietytypes.csv"
@@ -544,17 +547,20 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                         "name": "Name"
                     },
                     {
                         "datatype": "string",
                         "name": "Description"
                     }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             },
             "url": "featurecategories.csv"
@@ -564,11 +570,11 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
                         "name": "Name"
                     },
                     {
@@ -583,6 +589,9 @@
                         "datatype": "string",
                         "name": "Email"
                     }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             },
             "url": "contributors.csv"
@@ -591,6 +600,10 @@
             "dc:extent": 550,
             "tableSchema": {
                 "columns": [
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
                     {
                         "datatype": "string",
                         "name": "Version"
@@ -642,6 +655,9 @@
                             ]
                         }
                     }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             },
             "url": "history.csv"
