@@ -3,28 +3,12 @@ import itertools
 
 from pycldf import StructureDataset, Reference
 from cldfbench import Dataset as BaseDataset
-from cldfbench import CLDFSpec, Metadata
-
-
-class MetadataWithTravis(Metadata):
-    def markdown(self):
-        lines, title_found = [], False
-        for line in super().markdown().split('\n'):
-            lines.append(line)
-            if line.startswith('# ') and not title_found:
-                title_found = True
-                lines.extend([
-                    '',
-                    "[![Build Status](https://travis-ci.org/cldf-datasets/ewave.svg?branch=master)]"
-                    "(https://travis-ci.org/cldf-datasets/ewave)"
-                ])
-        return '\n'.join(lines)
+from cldfbench import CLDFSpec
 
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "ewave"
-    metadata_cls = MetadataWithTravis
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return CLDFSpec(
@@ -35,10 +19,16 @@ class Dataset(BaseDataset):
     def cmd_download(self, args):
         pass
 
+    def cmd_readme(self, args):
+        res = super().cmd_readme(args)
+        return res + """
+### Coverage
+
+![map](map.svg)
+
+"""
+
     def cmd_makecldf(self, args):
-        #
-        # Augment the schema of the rather simplistic CLDF download:
-        #
         ds = args.writer.cldf
         # Add tables for controlled vocabularies:
         ds.add_table(

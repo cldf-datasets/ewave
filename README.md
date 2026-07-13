@@ -1,11 +1,29 @@
 # The Electronic World Atlas of Varieties of English
 
-[![Build Status](https://travis-ci.org/cldf-datasets/ewave.svg?branch=master)](https://travis-ci.org/cldf-datasets/ewave)
+[![CLDF validation](https://github.com/cldf-datasets/ewave/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/ewave/actions?query=workflow%3ACLDF-validation)
 
-Cite the source dataset as
+## How to cite
 
-> Kortmann, Bernd & Lunkenheimer, Kerstin & Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)
+If you use these data please cite
+- the original source
+  > Kortmann, Bernd & Lunkenheimer, Kerstin & Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-BY-3.0 license
 
 Available online at https://ewave-atlas.org/
+
+### Coverage
+
+![map](map.svg)
+
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [StructureDataset](https://github.com/cldf/cldf/tree/master/modules/StructureDataset) at [cldf/StructureDataset-metadata.json](cldf/StructureDataset-metadata.json)

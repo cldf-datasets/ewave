@@ -1,0 +1,28 @@
+{
+    "creators": [
+        {
+            "name": "Robert Forkel"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Bernd Kortmann",
+            "type": "Editor"
+        },
+        {
+            "name": "Kerstin Lunkenheimer",
+            "type": "Editor"
+        }
+    ],
+    "title": "The Electronic World Atlas of Varieties of English",
+    "access_right": "open",
+    "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kortmann, Bernd &amp; Lunkenheimer, Kerstin &amp; Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-3.0"
+    }
+}
