@@ -8,7 +8,7 @@
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Kortmann, Bernd & Lunkenheimer, Kerstin & Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Kortmann, Bernd & Lunkenheimer, Kerstin & Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://ewave-atlas.org)
 [dc:bibliographicCitation ](http://purl.org/dc/terms/bibliographicCitation ) | Kortmann, Bernd & Lunkenheimer, Kerstin (eds.) 2013.
 The Electronic World Atlas of Varieties of English.
 Leipzig: Max Planck Institute for Evolutionary Anthropology.
@@ -21,7 +21,7 @@ Leipzig: Max Planck Institute for Evolutionary Anthropology.
 [dc:license](http://purl.org/dc/terms/license) | http://creativecommons.org/licenses/by/3.0/
 [dc:publisher](http://purl.org/dc/terms/publisher) | Max Planck Institute for Evolutionary Anthropology, Leipzig
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | http://ewave-atlas.org/download
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/ewave/tree/v3.0.1">cldf-datasets/ewave  v3.0.1</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.3">Glottolog  v5.3</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/ewave/tree/f983a04">cldf-datasets/ewave  v3.0.1-1-gf983a04</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.3">Glottolog  v5.3</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | ewave
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -133,6 +133,25 @@ Name/Property | Datatype | Description
 `abbr` | `string` | 
 `Contributor_ID` | list of `string` (separated by ` `) | References [contributors.csv::ID](#table-contributorscsv)
 
+## <a name="table-mediacsv"></a>Table [media.csv](./media.csv)
+
+property | value
+ --- | ---
+[dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF MediaTable](http://cldf.clld.org/v1.0/terms.rdf#MediaTable)
+[dc:extent](http://purl.org/dc/terms/extent) | 4
+
+
+### Columns
+
+Name/Property | Datatype | Description
+ --- | --- | --- 
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
+[Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
+[Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
+[Media_Type](http://cldf.clld.org/v1.0/terms.rdf#mediaType) | `string`<br>Regex: `[^/]+/.+` | 
+[Download_URL](http://cldf.clld.org/v1.0/terms.rdf#downloadUrl) | `anyURI` | 
+[Path_In_Zip](http://cldf.clld.org/v1.0/terms.rdf#pathInZip) | `string` | 
+
 ## <a name="table-regionscsv"></a>Table [regions.csv](./regions.csv)
 
 property | value
@@ -195,6 +214,8 @@ Name/Property | Datatype | Description
 `Email` | `string` | 
 
 ## <a name="table-historycsv"></a>Table [history.csv](./history.csv)
+
+This table lists ratings from version 1.0 of eWAVE which have changed in version 2.0.
 
 property | value
  --- | ---

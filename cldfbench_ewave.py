@@ -1,7 +1,10 @@
+import shutil
 import pathlib
 import itertools
+import mimetypes
 
 from pycldf import StructureDataset, Reference
+from clldutils.path import md5
 from cldfbench import Dataset as BaseDataset
 from cldfbench import CLDFSpec
 
@@ -30,6 +33,7 @@ class Dataset(BaseDataset):
 
     def cmd_makecldf(self, args):
         ds = args.writer.cldf
+        ds.add_component('MediaTable')
         # Add tables for controlled vocabularies:
         ds.add_table(
             'regions.csv', 
@@ -143,6 +147,8 @@ Two more things should also be noted here:
         history.add_foreign_key('Language_ID', 'languages.csv', 'ID')
         history.add_foreign_key('Parameter_ID', 'parameters.csv', 'ID')
         history.add_foreign_key('Code_ID', 'codes.csv', 'ID')
+        history.common_props['dc:description'] = \
+            "This table lists ratings from version 1.0 of eWAVE which have changed in version 2.0."
 
         #
         # Now add the data:
@@ -245,3 +251,26 @@ Two more things should also be noted here:
             row['ID'] = '{0}-{1}'.format(row['Language_ID'], row['Parameter_ID'])
             row['Code_ID'] = '{0}-{1}'.format(row['Parameter_ID'], row['Value'] or 'NA')
             args.writer.objects['ValueTable'].append(row)
+
+        self.add_file('home.md', args.writer, 'Introduction to eWAVE 3.0')
+        self.add_file('introduction.md', args.writer, 'General introduction to eWAVE')
+        self.add_file(
+            'WAVEquestionnaire.pdf',
+            args.writer,
+            'Description of the initial eWAVE questionnaire')
+        self.add_file(
+            'ewave-1.0.zip',
+            args.writer,
+            'Database dump of eWAVE 1.0 (2011), serialized as zipped set of CSV files')
+
+    def add_file(self, fname, writer, desc):
+        p = self.raw_dir / fname
+        shutil.copy(p, self.cldf_dir / p.name)
+        writer.objects['MediaTable'].append(dict(
+            ID=md5(p),
+            Name=p.name,
+            Description=desc,
+            Media_Type=mimetypes.guess_type(fname)[0],
+            Download_URL=p.name,
+            Path_In_Zip=None,
+        ))

@@ -6,7 +6,7 @@
 
 If you use these data please cite
 - the original source
-  > Kortmann, Bernd & Lunkenheimer, Kerstin & Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Jena: Max Planck Institute for the Science of Human History. (Available online at https://ewave-atlas.org)
+  > Kortmann, Bernd & Lunkenheimer, Kerstin & Ehret, Katharina (eds.) 2020. The Electronic World Atlas of Varieties of English. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at https://ewave-atlas.org)
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description

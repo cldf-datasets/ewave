@@ -1,0 +1,5 @@
+ID,Name,Description,Media_Type,Download_URL,Path_In_Zip
+5c9118856cc312ef0b16920a7b8c1abe,home.md,Introduction to eWAVE 3.0,text/markdown,home.md,
+b3b744c6ce1a25fff9387c7ab3ea461c,introduction.md,General introduction to eWAVE,text/markdown,introduction.md,
+9a3f0b7e8cfa2b1d4ed2db5b9dfe453c,WAVEquestionnaire.pdf,Description of the initial eWAVE questionnaire,application/pdf,WAVEquestionnaire.pdf,
+ad25512544bd8157b05577adfb63faad,ewave-1.0.zip,"Database dump of eWAVE 1.0 (2011), serialized as zipped set of CSV files",application/zip,ewave-1.0.zip,
